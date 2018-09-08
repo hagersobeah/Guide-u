@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\applogo.png" />
+    <None Remove="Assets\cvv.png" />
+    <None Remove="Assets\entertainmentplaces.png" />
+    <None Remove="Assets\fbicon.png" />
+    <None Remove="Assets\googleicon.png" />
+    <None Remove="Assets\places.png" />
+    <None Remove="Assets\restaurant.png" />
+    <None Remove="Assets\star_outline.png" />
+    <None Remove="Assets\star_selected.png" />
+    <None Remove="Assets\tgicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Assets\applogo.png" />
+    <EmbeddedResource Include="Assets\cvv.png" />
+    <EmbeddedResource Include="Assets\entertainmentplaces.png" />
+    <EmbeddedResource Include="Assets\fbicon.png" />
+    <EmbeddedResource Include="Assets\googleicon.png" />
+    <EmbeddedResource Include="Assets\places.png" />
+    <EmbeddedResource Include="Assets\restaurant.png" />
+    <EmbeddedResource Include="Assets\star_outline.png" />
+    <EmbeddedResource Include="Assets\star_selected.png" />
+    <EmbeddedResource Include="Assets\tgicon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.561731" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="3.0.0.561731" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MainServicePage.xaml.cs">
+      <DependentUpon>MainServicePage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="AboutUsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="LoginPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="MainServicePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="PaymentMethodPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RegistrationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TourGuidePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="TouristicPlacePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

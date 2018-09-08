@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+                  NavigationPage.HasNavigationBar="False"
+             x:Class="GuideUAPP.MainServicePage">
+    <MasterDetailPage.Master >
+        <!-- Menu side-->
+        <ContentPage Title="Menu" BackgroundColor="#FFFFF7A9">
+            <Grid Padding="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="37*"/>
+                    <ColumnDefinition Width="276*"/>
+                    <ColumnDefinition Width="42*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="104*"/>
+                    <RowDefinition Height="35*"/>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="30*"/>
+                    <RowDefinition Height="269*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="#FFFFBE0F" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="5*"/>
+                        <ColumnDefinition Width="37*"/>
+                        <ColumnDefinition Width="276*"/>
+                        <ColumnDefinition Width="42*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="104*"/>
+                        <RowDefinition Height="35*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackLayout x:Name="profileGrid"  Grid.Row="0" Grid.RowSpan="2" Grid.Column="2"  Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center">
+
+                        <Label Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="&#xf007;" FontSize="70" TextColor="White">
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String"
+                                Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                                iOS="Font Awesome 5 Free" 
+                                WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                            </Label.FontFamily>
+                        </Label>
+                        <Label Grid.Row="1" Grid.Column="2" Text="Hager Sobeah" HorizontalOptions="Start" FontAttributes="Bold" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                    </StackLayout>
+                </Grid>
+
+                <!--Tour Guide-->
+                <StackLayout x:Name="tourGuide" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2">
+                    <Label Grid.Column="1" Grid.Row="2" Text="&#xf554;" BackgroundColor="Transparent"
+                           VerticalOptions="Center" FontSize="Small"  HorizontalOptions="Start" TextColor="#FF134866">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                        </Label.FontFamily>
+                    </Label>
+                    <Label Grid.Column="2" Grid.Row="2" Text=" Tour Guide" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                </StackLayout>
+                <!--Payment Method-->
+                <StackLayout x:Name="payment" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3">
+                    <Label Grid.Column="1" Grid.Row="3" Text="&#xf09d;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="15" HorizontalOptions="Start" TextColor="#FF134866">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                        </Label.FontFamily>
+                    </Label>
+                    <Label Grid.Column="2" Grid.Row="3" Text="Payment Method" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                </StackLayout>
+                <!--Settings-->
+                <StackLayout x:Name="settings" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4">
+                    <Label Grid.Column="1" Grid.Row="4" Text="&#xf013;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="Small" HorizontalOptions="Start" TextColor="#FF134866">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                        </Label.FontFamily>
+                    </Label>
+                    <Label Grid.Column="2" Grid.Row="4" Text="Settings" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                </StackLayout>
+                <!--About us-->
+                <StackLayout x:Name="aboutUs" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5">
+                    <Label Grid.Column="1" Grid.Row="5" Text="&#xf05a;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="Small" HorizontalOptions="Start" TextColor="#FF134866">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                        </Label.FontFamily>
+                    </Label>
+                    <Label Grid.Column="2" Grid.Row="5" Text="About us" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                </StackLayout>
+                <!--Logout-->
+                <StackLayout x:Name="logout" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6">
+                    <Label Grid.Column="1" Grid.Row="6" Text="&#xf2f5;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="20" HorizontalOptions="Start" TextColor="#FF134866">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                        </Label.FontFamily>
+                    </Label>
+                    <Label Grid.Column="2" Grid.Row="6" Text="Logout" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                </StackLayout>
+
+            </Grid>
+
+
+        </ContentPage>
+
+
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <!-- Main Page-->
+
+
+        <ContentPage Title="Main Page">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+
+                <StackLayout Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                    <maps:Map x:Name="MyMap" MapType="Street"/>
+
+                </StackLayout>
+                <StackLayout  Grid.Column="1" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="End">
+                    <Image x:Name="restaurantImg" Grid.Column="1"  WidthRequest="60" HeightRequest="60"></Image>
+                    <Image x:Name="placesImg" Grid.Column="1" WidthRequest="60" HeightRequest="60"></Image>
+                    <Image x:Name="entertainmentPlacesImg" Grid.Column="1" WidthRequest="60" HeightRequest="60"></Image>
+
+                </StackLayout>
+
+
+
+            </Grid>
+        </ContentPage>
+
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

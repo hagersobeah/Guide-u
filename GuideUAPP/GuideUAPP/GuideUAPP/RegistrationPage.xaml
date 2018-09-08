@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="GuideUAPP.RegistrationPage">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="12*"/>
+            <ColumnDefinition Width="12*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="17*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="46*"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout Orientation="Horizontal" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="30,0,30,0" >
+            <Image Grid.Column="0" HorizontalOptions="Start" WidthRequest="50" HeightRequest="50" Source="Assets/logoicon.PNG"></Image>
+            <Label Text="New user" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Navy" FontSize="12"></Label>
+        </StackLayout>
+
+        <StackLayout Orientation="Vertical" Grid.Row="1" Grid.RowSpan="5" Grid.Column="0" Grid.ColumnSpan="3" Margin="30,0,30,0">
+
+            <Entry x:Name="FullnameText" Grid.Row="1" Placeholder="Fullname" TextColor="Navy"></Entry>
+            <Entry x:Name="UsernameText" Grid.Row="2" Placeholder="Username" TextColor="Navy"></Entry>
+            <Entry x:Name="EmailText" Grid.Row="3" Placeholder="Email" TextColor="Navy"></Entry>
+            <Entry x:Name="PasswordText" Grid.Row="4" Placeholder="Password" TextColor="Navy" IsPassword="True"></Entry>
+            <Entry x:Name="ConfirmPasswordText" Grid.Row="5" Placeholder="Confirm Password" TextColor="Navy" IsPassword="True"></Entry>
+
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Start" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="3" Margin="30,5,30,0">
+            <Label Grid.Row="6"  Text="Date of Birth" Margin="0,5,5,0"></Label>
+
+            <DatePicker Grid.Row="6" Grid.Column="1" >
+            </DatePicker>
+
+        </StackLayout>
+
+        <StackLayout  Orientation="Horizontal" HorizontalOptions="Start" Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3"  Margin="30,0,30,0">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="7" Grid.Column="0">
+                <Label Grid.Row="7" Grid.Column="0" Text="Gender" Margin="0,0,40,0"></Label>
+                <Picker Grid.Row="7" Grid.Column="0" WidthRequest="100" HeightRequest="15">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Female</x:String>
+                            <x:String>Male</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </StackLayout>
+
+            <Entry Grid.Row="7" Grid.Column="1" Placeholder="Country" HeightRequest="20" WidthRequest="100"></Entry>
+            <Entry Grid.Row="7" Grid.Column="2" Placeholder="City" HeightRequest="20" WidthRequest="100"></Entry>
+        </StackLayout>
+
+        <Button x:Name="ResgisterationBtn" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Text="Register"
+                BackgroundColor="Orange" TextColor="Navy" HorizontalOptions="Center"
+                VerticalOptions="Center" CornerRadius="10" WidthRequest="200" HeightRequest="40"></Button>
+
+    </Grid>
+</ContentPage>

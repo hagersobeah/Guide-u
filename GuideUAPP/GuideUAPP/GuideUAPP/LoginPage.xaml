@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              NavigationPage.HasNavigationBar="False"
+             x:Class="GuideUAPP.LoginPage">
+
+    <ContentPage.Content>
+        <Grid BackgroundColor="#FFFFF7A9">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*"/>
+                <ColumnDefinition Width="47*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="222*"/>
+                <RowDefinition Height="61*"/>
+                <RowDefinition Height="61*"/>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="76*"/>
+
+                <RowDefinition Height="45*"/>
+                <RowDefinition Height="45*"/>
+                <RowDefinition Height="75*"/>
+            </Grid.RowDefinitions>
+
+
+            <Image x:Name="logo" Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="Center" HorizontalOptions="Center"></Image>
+
+            <StackLayout Orientation="Vertical" Grid.Row="1" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="30,0,30,0">
+
+                <Entry x:Name="UsernameText" Grid.Row="1" Placeholder="Username" TextColor="#FF134866"></Entry>
+
+                <Entry x:Name="PasswordText" Grid.Row="2" Placeholder="Password" TextColor="#FF134866" IsPassword="True"></Entry>
+
+                <Label x:Name="ForgetPassword" Grid.Row="3" Text="Forget password?" TextColor="Gray" HorizontalOptions="End"></Label>
+
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2" Margin="70,0,30,0">
+
+                <Button x:Name="loginBtn" Text="Login" TextColor="#FF134866" HorizontalOptions="Center" VerticalOptions="Center" 
+                    WidthRequest="200" HeightRequest="40" BackgroundColor="#FFFFBE0F" CornerRadius="10"></Button>
+
+                <Label x:Name="SignupLabel"  Text="New here? Sign up!" FontSize="12" TextColor="#FF134866" HorizontalOptions="Center"></Label>
+
+            </StackLayout>
+            <StackLayout Grid.Row="5" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="70,5,30,0">
+                <StackLayout Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" >
+
+                    <Image x:Name="fbImg"  Grid.Column="0" Grid.Row="5"  WidthRequest="30" HeightRequest="30"></Image>
+
+                    <Label Text="Login with Facebook" FontSize="12" TextColor="#FF134866" HorizontalOptions="Center" Grid.Column="1" Grid.Row="5" Margin="0,10,0,10" ></Label>
+
+                </StackLayout>
+
+                <StackLayout Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalOptions="Center" >
+
+                    <Image x:Name="googleImg" Grid.Column="0" Grid.Row="6"  WidthRequest="30" HeightRequest="30" ></Image>
+
+                    <Label Text="  Login with Google" FontSize="12" TextColor="#FF134866" HorizontalOptions="Center" Grid.Column="1" Grid.Row="6" Margin="0,10,0,10" ></Label>
+
+                </StackLayout>
+            </StackLayout>
+
+
+
+
+        </Grid>
+    </ContentPage.Content>
+
+
+</ContentPage>

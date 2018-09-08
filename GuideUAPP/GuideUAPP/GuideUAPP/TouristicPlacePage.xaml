@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GuideUAPP.TouristicPlacePage">
+    <Grid BackgroundColor="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="3" HorizontalOptions="Center">
+            <StackLayout Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Orientation="Horizontal" HorizontalOptions="End"
+                     VerticalOptions="CenterAndExpand">
+                <Label HorizontalOptions="Center" TextColor="#FF940030" Text="&#xf03e;" FontSize="100" WidthRequest="100" HeightRequest="100">
+                    <Label.FontFamily>
+                        <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                    </Label.FontFamily>
+                </Label>
+            </StackLayout>
+            <StackLayout Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Start" VerticalOptions="Center">
+                <Label Grid.Row="2" Grid.Column="2" TextColor="#FF940030" Text="Place Name" HorizontalOptions="Start" VerticalOptions="Center" />
+
+
+                <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="2" HorizontalOptions="Start" VerticalOptions="Center">
+                    <StackLayout Orientation="Horizontal" >
+                        <Label Text="&#xf5eb;" HorizontalOptions="Center" TextColor="#FF940030">
+
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                            </Label.FontFamily>
+
+                        </Label>
+                        <Label Text="Go to" ></Label>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="&#xf03d;" HorizontalOptions="Center" TextColor="#FF940030" >
+
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                            </Label.FontFamily>
+
+                        </Label>
+                        <Label Text="See video" ></Label>
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="&#xf554;" HorizontalOptions="Center" TextColor="#FF940030" >
+
+                            <Label.FontFamily>
+                                <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                            </Label.FontFamily>
+
+                        </Label>
+                        <Label Text="TG" ></Label>
+                    </StackLayout>
+                </StackLayout>
+
+
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Information about the place"></Label>
+        </StackLayout>
+
+
+
+
+
+    </Grid>
+
+</ContentPage>

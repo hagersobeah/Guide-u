@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+               xmlns:local="clr-namespace:GuideUAPP;assembly=GuideUAPP"
+             xmlns:local1="clr-namespace:GuideUAPP.Behaviors"
+             xmlns:local2="clr-namespace:GuideUAPP"
+             x:Class="GuideUAPP.TourGuidePage">
+    <ContentPage.Content>
+
+        <ListView  x:Name="listView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="Orange">
+                            <StackLayout Orientation="Vertical">
+
+                                <Label Text = "{Binding Name}" FontSize="24" AbsoluteLayout.LayoutBounds="0.25, 0.25, 400, 40"/>
+                                <Image Source="{Binding Rating}" WidthRequest="100" HeightRequest="40"></Image>
+                            </StackLayout>
+                            <Image Source="{Binding Image}" HorizontalOptions="Start" WidthRequest="40" HeightRequest="40" AbsoluteLayout.LayoutBounds="250.25, 0.25, 50, 50 "/>
+
+
+                        </StackLayout>
+
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+
+
+
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

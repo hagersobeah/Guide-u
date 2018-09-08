@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              NavigationPage.HasNavigationBar="False"
+             x:Class="GuideUAPP.SettingsPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="90*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="55*"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="1" Grid.Column="1" Text="Settings" FontSize="15" HorizontalOptions="Start"></Label>
+        <Label Grid.Row="2" Grid.Column="1" Text="Privacy Policy" FontSize="20" HorizontalOptions="Start" BackgroundColor="Transparent" TextColor="Red"></Label>
+        <Label Grid.Row="3" Grid.Column="1" Text="Terms of use and conditions" HorizontalOptions="Start" FontSize="20" BackgroundColor="Transparent" TextColor="Red"></Label>
+        <Label x:Name="EditProfile" Grid.Row="4" Grid.Column="1" Text="Edit Profile" FontSize="20" HorizontalOptions="Start" BackgroundColor="Transparent" TextColor="Red"></Label>
+
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                NavigationPage.HasNavigationBar="False"
+             x:Class="GuideUAPP.AboutUsPage">
+    <CarouselPage.Children>
+
+        <ContentPage Title="OurMotoPage" BackgroundColor="#FFFEE187">
+
+            <!--   <c:CircleImage Source="Assets/tourismm.PNG">
+
+            </c:CircleImage>
+            -->
+            <Label Text="Our moto:" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+
+
+        </ContentPage>
+        <ContentPage Title="CopyrightsPage" BackgroundColor="#FFE03A00">
+            <Label Text="Copyrights" HorizontalOptions="Center" VerticalOptions="Center" ></Label>
+        </ContentPage>
+        <ContentPage Title="PrivacyPolicyPage" BackgroundColor="#FF940030">
+            <Label Text="Privacy Policy" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+        </ContentPage>
+        <ContentPage Title="ContactUs" BackgroundColor="#FFFFC61B">
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" >
+                <Label Text="Contact us" HorizontalOptions="Center" VerticalOptions="Start"></Label>
+                <Label Text="guide-u@example.com" HorizontalOptions="Center" VerticalOptions="Center"></Label>
+            </StackLayout>
+
+        </ContentPage>
+
+
+
+
+    </CarouselPage.Children>
+</CarouselPage>
