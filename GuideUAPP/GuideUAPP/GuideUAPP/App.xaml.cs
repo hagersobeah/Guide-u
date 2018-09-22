@@ -11,11 +11,8 @@ namespace GuideUAPP
 		{
 			InitializeComponent();
 
-            //MainPage = new NavigationPage(new LoginPage());
-            // MainPage.Navigation.PushAsync(new LoginPage());
-            var np = new NavigationPage(new MainServicePage());
-            MainPage = np;
-        }
+			MainPage = new NavigationPage( new MainServicePage());
+		}
 
 		protected override void OnStart ()
 		{

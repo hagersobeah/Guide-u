@@ -9,8 +9,8 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
-    <PackageIdentityPublisher>CN=e7e961c2-8493-41cb-9b14-00c963d078c8</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <PackageIdentityPublisher>CN=73a73b96-d093-4d6d-8b92-92009717aefd</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,26 +18,230 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>0586BF4FF2B233510D62728029B074B4A7B18E677CF869D7B63C653CE3F26305</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>4b1849f5-858e-42e1-8a6e-f19a34eec3c6_1.0.0.0_x86__4j6x1tzw4atmp</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>4b1849f5-858e-42e1-8a6e-f19a34eec3c6_4j6x1tzw4atmp!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>4b1849f5-858e-42e1-8a6e-f19a34eec3c6</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=e7e961c2-8493-41cb-9b14-00c963d078c8</RegisteredPackagePublisher>
+    <LayoutDir>D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>B6FFB120D8635CFF1F22309DE43592687E4151B0F8DF2D915AE32D2CB9AB33F9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6a3e82f0-533e-4a19-9b14-c40f9b96ad23_1.0.0.0_x86__pswkrtrxvkm86</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6a3e82f0-533e-4a19-9b14-c40f9b96ad23_pswkrtrxvkm86!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6a3e82f0-533e-4a19-9b14-c40f9b96ad23</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=73a73b96-d093-4d6d-8b92-92009717aefd</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-04T19:20:15.158</Modified>
+      <Modified>2018-09-22T01:29:48.024</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.exe">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.exe">
       <PackagePath>entrypoint\GuideUAPP.UWP.exe</PackagePath>
-      <Modified>2018-09-04T19:20:11.165</Modified>
+      <Modified>2018-09-22T01:29:46.086</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshIOC.dll">
+      <PackagePath>FreshIOC.dll</PackagePath>
+      <Modified>2018-02-01T13:19:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshMvvm.dll">
+      <PackagePath>FreshMvvm.dll</PackagePath>
+      <Modified>2018-02-01T13:19:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core\2.5.1\lib\netstandard2.0\Humanizer.dll">
+      <PackagePath>Humanizer.dll</PackagePath>
+      <Modified>2018-09-17T14:57:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.af\2.5.1\lib\netstandard2.0\af\Humanizer.resources.dll">
+      <PackagePath>af\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ar\2.5.1\lib\netstandard2.0\ar\Humanizer.resources.dll">
+      <PackagePath>ar\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.bg\2.5.1\lib\netstandard2.0\bg\Humanizer.resources.dll">
+      <PackagePath>bg\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.bn-bd\2.5.1\lib\netstandard2.0\bn-BD\Humanizer.resources.dll">
+      <PackagePath>bn-BD\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.cs\2.5.1\lib\netstandard2.0\cs\Humanizer.resources.dll">
+      <PackagePath>cs\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.da\2.5.1\lib\netstandard2.0\da\Humanizer.resources.dll">
+      <PackagePath>da\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.de\2.5.1\lib\netstandard2.0\de\Humanizer.resources.dll">
+      <PackagePath>de\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.el\2.5.1\lib\netstandard2.0\el\Humanizer.resources.dll">
+      <PackagePath>el\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.es\2.5.1\lib\netstandard2.0\es\Humanizer.resources.dll">
+      <PackagePath>es\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fa\2.5.1\lib\netstandard2.0\fa\Humanizer.resources.dll">
+      <PackagePath>fa\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fi-fi\2.5.1\lib\netstandard2.0\fi-FI\Humanizer.resources.dll">
+      <PackagePath>fi-FI\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:57:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fr\2.5.1\lib\netstandard2.0\fr\Humanizer.resources.dll">
+      <PackagePath>fr\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fr-be\2.5.1\lib\netstandard2.0\fr-BE\Humanizer.resources.dll">
+      <PackagePath>fr-BE\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.he\2.5.1\lib\netstandard2.0\he\Humanizer.resources.dll">
+      <PackagePath>he\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.hr\2.5.1\lib\netstandard2.0\hr\Humanizer.resources.dll">
+      <PackagePath>hr\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.hu\2.5.1\lib\netstandard2.0\hu\Humanizer.resources.dll">
+      <PackagePath>hu\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.id\2.5.1\lib\netstandard2.0\id\Humanizer.resources.dll">
+      <PackagePath>id\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.it\2.5.1\lib\netstandard2.0\it\Humanizer.resources.dll">
+      <PackagePath>it\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ja\2.5.1\lib\netstandard2.0\ja\Humanizer.resources.dll">
+      <PackagePath>ja\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.lv\2.5.1\lib\netstandard2.0\lv\Humanizer.resources.dll">
+      <PackagePath>lv\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.nb\2.5.1\lib\netstandard2.0\nb\Humanizer.resources.dll">
+      <PackagePath>nb\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.nb-no\2.5.1\lib\netstandard2.0\nb-NO\Humanizer.resources.dll">
+      <PackagePath>nb-NO\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.nl\2.5.1\lib\netstandard2.0\nl\Humanizer.resources.dll">
+      <PackagePath>nl\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.pl\2.5.1\lib\netstandard2.0\pl\Humanizer.resources.dll">
+      <PackagePath>pl\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.pt\2.5.1\lib\netstandard2.0\pt\Humanizer.resources.dll">
+      <PackagePath>pt\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ro\2.5.1\lib\netstandard2.0\ro\Humanizer.resources.dll">
+      <PackagePath>ro\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ru\2.5.1\lib\netstandard2.0\ru\Humanizer.resources.dll">
+      <PackagePath>ru\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sk\2.5.1\lib\netstandard2.0\sk\Humanizer.resources.dll">
+      <PackagePath>sk\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sl\2.5.1\lib\netstandard2.0\sl\Humanizer.resources.dll">
+      <PackagePath>sl\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sr\2.5.1\lib\netstandard2.0\sr\Humanizer.resources.dll">
+      <PackagePath>sr\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sr-latn\2.5.1\lib\netstandard2.0\sr-Latn\Humanizer.resources.dll">
+      <PackagePath>sr-Latn\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sv\2.5.1\lib\netstandard2.0\sv\Humanizer.resources.dll">
+      <PackagePath>sv\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.tr\2.5.1\lib\netstandard2.0\tr\Humanizer.resources.dll">
+      <PackagePath>tr\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.uk\2.5.1\lib\netstandard2.0\uk\Humanizer.resources.dll">
+      <PackagePath>uk\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.uz-cyrl-uz\2.5.1\lib\netstandard2.0\uz-Cyrl-UZ\Humanizer.resources.dll">
+      <PackagePath>uz-Cyrl-UZ\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.uz-latn-uz\2.5.1\lib\netstandard2.0\uz-Latn-UZ\Humanizer.resources.dll">
+      <PackagePath>uz-Latn-UZ\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.vi\2.5.1\lib\netstandard2.0\vi\Humanizer.resources.dll">
+      <PackagePath>vi\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.zh-cn\2.5.1\lib\netstandard2.0\zh-CN\Humanizer.resources.dll">
+      <PackagePath>zh-CN\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.zh-hans\2.5.1\lib\netstandard2.0\zh-Hans\Humanizer.resources.dll">
+      <PackagePath>zh-Hans\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.zh-hant\2.5.1\lib\netstandard2.0\zh-Hant\Humanizer.resources.dll">
+      <PackagePath>zh-Hant\Humanizer.resources.dll</PackagePath>
+      <Modified>2018-09-17T14:58:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\inthehand.forms\1.0.2018.828\lib\uap10.0\InTheHand.Forms.Platform.UWP.dll">
+      <PackagePath>InTheHand.Forms.Platform.UWP.dll</PackagePath>
+      <Modified>2018-08-28T12:36:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\inthehand.forms\1.0.2018.828\lib\uap10.0\InTheHand.Forms.dll">
+      <PackagePath>InTheHand.Forms.dll</PackagePath>
+      <Modified>2018-08-28T12:35:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+      <Modified>2015-02-19T18:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+      <Modified>2015-02-19T18:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\newtonsoft.json\8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-03-14T19:30:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\plugin.share\7.1.1\lib\UAP10\Plugin.Share.Abstractions.dll">
+      <PackagePath>Plugin.Share.Abstractions.dll</PackagePath>
+      <Modified>2017-12-19T10:36:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\plugin.share\7.1.1\lib\UAP10\Plugin.Share.dll">
+      <PackagePath>Plugin.Share.dll</PackagePath>
+      <Modified>2017-12-19T10:36:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\propertychanged.fody\2.5.11\lib\netstandard1.0\PropertyChanged.dll">
+      <PackagePath>PropertyChanged.dll</PackagePath>
+      <Modified>2018-09-18T08:52:08.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -695,6 +899,34 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2017-09-30T18:26:12.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlite-net-pcl\1.5.231\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2018-09-10T18:00:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+      <Modified>2018-05-02T09:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2018-05-02T09:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2018-05-02T09:43:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2018-05-02T09:44:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2018-05-02T09:44:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\xam.plugins.forms.imagecircle\3.0.0.5\lib\uap10.0.16299\ImageCircle.Forms.Plugin.dll">
+      <PackagePath>ImageCircle.Forms.Plugin.dll</PackagePath>
+      <Modified>2018-05-15T23:40:50.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\xamarin.forms\3.0.0.561731\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-06-08T05:48:40.000</Modified>
@@ -719,204 +951,240 @@
       <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
       <Modified>2018-06-08T05:48:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP\bin\Debug\netstandard2.0\GuideUAPP.dll">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP\bin\Debug\netstandard2.0\GuideUAPP.dll">
       <PackagePath>GuideUAPP.dll</PackagePath>
-      <Modified>2018-09-04T19:20:03.301</Modified>
+      <Modified>2018-09-22T01:29:37.522</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.067</Modified>
+      <Modified>2018-09-21T16:11:14.797</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.239</Modified>
+      <Modified>2018-09-21T16:11:14.800</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.257</Modified>
+      <Modified>2018-09-21T16:11:14.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\rating.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\rating.PNG">
       <PackagePath>Assets\rating.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.846</Modified>
+      <Modified>2018-09-21T22:56:36.659</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingg.PNG">
       <PackagePath>Assets\ratingg.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.858</Modified>
+      <Modified>2018-09-21T22:56:36.663</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggg.PNG">
       <PackagePath>Assets\ratinggg.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.892</Modified>
+      <Modified>2018-09-21T22:56:36.667</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingggg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingggg.PNG">
       <PackagePath>Assets\ratingggg.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.896</Modified>
+      <Modified>2018-09-21T22:56:36.691</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggggg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggggg.PNG">
       <PackagePath>Assets\ratinggggg.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.899</Modified>
+      <Modified>2018-09-21T22:56:36.655</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.262</Modified>
+      <Modified>2018-09-21T16:11:14.809</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.266</Modified>
+      <Modified>2018-09-21T16:11:14.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.272</Modified>
+      <Modified>2018-09-21T16:11:14.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.423</Modified>
+      <Modified>2018-09-21T16:11:14.890</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.427</Modified>
+      <Modified>2018-09-21T16:11:14.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.442</Modified>
+      <Modified>2018-09-21T16:11:14.972</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.447</Modified>
+      <Modified>2018-09-21T16:11:14.978</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.451</Modified>
+      <Modified>2018-09-21T16:11:14.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.668</Modified>
+      <Modified>2018-09-21T16:11:14.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.674</Modified>
+      <Modified>2018-09-21T16:11:15.061</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.682</Modified>
+      <Modified>2018-09-21T16:11:15.064</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.703</Modified>
+      <Modified>2018-09-21T16:11:15.066</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.708</Modified>
+      <Modified>2018-09-21T16:11:15.074</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.874</Modified>
+      <Modified>2018-09-21T16:11:15.147</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.886</Modified>
+      <Modified>2018-09-21T16:11:15.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.892</Modified>
+      <Modified>2018-09-21T16:11:15.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.899</Modified>
+      <Modified>2018-09-21T16:11:15.159</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:49.910</Modified>
+      <Modified>2018-09-21T16:11:15.234</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:50.119</Modified>
+      <Modified>2018-09-21T16:11:15.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:50.128</Modified>
+      <Modified>2018-09-21T16:11:15.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:50.132</Modified>
+      <Modified>2018-09-21T16:11:15.324</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tg.PNG">
-      <PackagePath>Assets\tg.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.903</Modified>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgboy.png">
+      <PackagePath>Assets\tgboy.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.421</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgg.PNG">
-      <PackagePath>Assets\tgg.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.907</Modified>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgboyy.png">
+      <PackagePath>Assets\tgboyy.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.428</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggg.PNG">
-      <PackagePath>Assets\tggg.PNG</PackagePath>
-      <Modified>2018-09-04T19:19:51.911</Modified>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgboyyy.png">
+      <PackagePath>Assets\tgboyyy.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.435</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirl.png">
+      <PackagePath>Assets\tggirl.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.442</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirll.png">
+      <PackagePath>Assets\tggirll.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.452</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirlll.png">
+      <PackagePath>Assets\tggirlll.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.459</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirllll.png">
+      <PackagePath>Assets\tggirllll.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.465</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirlllll.png">
+      <PackagePath>Assets\tggirlllll.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.472</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmale.png">
+      <PackagePath>Assets\tgmale.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.478</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmalee.png">
+      <PackagePath>Assets\tgmalee.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.485</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmaleee.png">
+      <PackagePath>Assets\tgmaleee.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.491</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmaleeepng.png">
+      <PackagePath>Assets\tgmaleeepng.png</PackagePath>
+      <Modified>2018-09-21T22:52:07.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:50.136</Modified>
+      <Modified>2018-09-21T16:11:15.326</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:50.265</Modified>
+      <Modified>2018-09-21T16:11:15.329</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-03T22:23:50.270</Modified>
+      <Modified>2018-09-21T16:11:15.335</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2018-09-03T22:23:50.287</Modified>
+      <Modified>2018-09-21T16:11:15.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Brands-Regular-400.otf">
-      <PackagePath>Assets\Font Awesome 5 Brands-Regular-400.otf</PackagePath>
-      <Modified>2018-09-04T04:26:01.833</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Regular-400.otf">
-      <PackagePath>Assets\Font Awesome 5 Free-Regular-400.otf</PackagePath>
-      <Modified>2018-09-04T04:26:01.836</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Solid-900.otf">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Solid-900.otf">
       <PackagePath>Assets\Font Awesome 5 Free-Solid-900.otf</PackagePath>
-      <Modified>2018-09-04T04:26:01.839</Modified>
+      <Modified>2018-09-21T22:22:58.513</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Brands-Regular-400.otf">
+      <PackagePath>Assets\Font Awesome 5 Brands-Regular-400.otf</PackagePath>
+      <Modified>2018-09-21T22:22:58.523</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Regular-400.otf">
+      <PackagePath>Assets\Font Awesome 5 Free-Regular-400.otf</PackagePath>
+      <Modified>2018-09-21T22:22:58.530</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.xr.xml">
       <PackagePath>GuideUAPP.UWP.xr.xml</PackagePath>
-      <Modified>2018-09-04T01:00:31.236</Modified>
+      <Modified>2018-09-21T16:13:47.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-09-04T19:20:10.804</Modified>
+      <Modified>2018-09-22T01:29:45.590</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-09-04T19:20:10.805</Modified>
+      <Modified>2018-09-22T01:29:45.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -966,14 +1234,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-06-08T05:48:30.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-09-04T19:20:13.875</Modified>
+      <Modified>2018-09-22T01:25:45.149</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\GuideUAPP.UWP.exe">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\GuideUAPP.UWP.exe">
       <PackagePath>GuideUAPP.UWP.exe</PackagePath>
-      <Modified>2018-09-04T19:20:15.148</Modified>
+      <Modified>2018-09-22T01:29:48.015</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

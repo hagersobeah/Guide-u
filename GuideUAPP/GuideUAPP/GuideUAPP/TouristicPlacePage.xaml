@@ -1,26 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:forms="clr-namespace:InTheHand.Forms;assembly=InTheHand.Forms"
+            
+             NavigationPage.HasNavigationBar="False"
              x:Class="GuideUAPP.TouristicPlacePage">
     <Grid BackgroundColor="White">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="10*"/>
-            <ColumnDefinition Width="40*"/>
-            <ColumnDefinition Width="50*"/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="10*"/>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="5*"/>
-            <RowDefinition Height="70*"/>
-            <RowDefinition Height="5*"/>
-        </Grid.RowDefinitions>
+        <Grid x:Name="MainGrid">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="50*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="5*"/>
+            </Grid.RowDefinitions>
 
-        <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="3" HorizontalOptions="Center">
-            <StackLayout Grid.Row="1" Grid.Column="1" Grid.RowSpan="3" Orientation="Horizontal" HorizontalOptions="End"
-                     VerticalOptions="CenterAndExpand">
-                <Label HorizontalOptions="Center" TextColor="#FF940030" Text="&#xf03e;" FontSize="100" WidthRequest="100" HeightRequest="100">
+
+            <!-- Begin Header -->
+            <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="0" 
+                             BackgroundColor="Transparent" HeightRequest="40" Grid.Column="0" Grid.ColumnSpan="3"  Grid.Row="0">
+                <StackLayout.Padding>
+                    <OnPlatform x:TypeArguments="Thickness"
+                            iOS="10, 10, 10, 10"
+                            Android="10, 10, 10, 10"
+                            WinPhone="10, 10, 10, 10" />
+                </StackLayout.Padding>
+                <!-- My header content -->
+                <Label x:Name="back" Text="&#xf00d;" BackgroundColor="Transparent" WidthRequest="40" HeightRequest="40"
+                           VerticalOptions="Center" FontSize="Small"  HorizontalOptions="Start" TextColor="White">
+
                     <Label.FontFamily>
                         <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
@@ -29,65 +44,135 @@
                     </Label.FontFamily>
                 </Label>
             </StackLayout>
-            <StackLayout Grid.Row="2" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Start" VerticalOptions="Center">
-                <Label Grid.Row="2" Grid.Column="2" TextColor="#FF940030" Text="Place Name" HorizontalOptions="Start" VerticalOptions="Center" />
+            <!-- End Header -->
 
 
-                <StackLayout Orientation="Horizontal" Grid.Row="3" Grid.Column="2" HorizontalOptions="Start" VerticalOptions="Center">
-                    <StackLayout Orientation="Horizontal" >
-                        <Label Text="&#xf5eb;" HorizontalOptions="Center" TextColor="#FF940030">
 
-                            <Label.FontFamily>
-                                <OnPlatform x:TypeArguments="x:String"
+            <StackLayout Orientation="Horizontal" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" Grid.RowSpan="3" HorizontalOptions="Center">
+                <StackLayout Grid.Row="2" Grid.Column="1" Grid.RowSpan="3" Orientation="Horizontal" HorizontalOptions="End"
+                     VerticalOptions="CenterAndExpand">
+                    <Label HorizontalOptions="Center" TextColor="#FF940030" Text="&#xf03e;" FontSize="100" WidthRequest="100" HeightRequest="100">
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
                             iOS="Font Awesome 5 Free" 
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
-                            </Label.FontFamily>
-
-                        </Label>
-                        <Label Text="Go to" ></Label>
-                    </StackLayout>
-
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="&#xf03d;" HorizontalOptions="Center" TextColor="#FF940030" >
-
-                            <Label.FontFamily>
-                                <OnPlatform x:TypeArguments="x:String"
-                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
-                            iOS="Font Awesome 5 Free" 
-                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
-                            </Label.FontFamily>
-
-                        </Label>
-                        <Label Text="See video" ></Label>
-                    </StackLayout>
-
-                    <StackLayout Orientation="Horizontal">
-                        <Label Text="&#xf554;" HorizontalOptions="Center" TextColor="#FF940030" >
-
-                            <Label.FontFamily>
-                                <OnPlatform x:TypeArguments="x:String"
-                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
-                            iOS="Font Awesome 5 Free" 
-                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
-                            </Label.FontFamily>
-
-                        </Label>
-                        <Label Text="TG" ></Label>
-                    </StackLayout>
+                        </Label.FontFamily>
+                    </Label>
                 </StackLayout>
+                <StackLayout Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Start" VerticalOptions="Center">
+                    <Label Grid.Row="3" Grid.Column="2" TextColor="#FF940030" Text="Place Name" HorizontalOptions="Start" VerticalOptions="Center" />
+
+
+                    <StackLayout Orientation="Horizontal" Grid.Row="4" Grid.Column="2" HorizontalOptions="Start" VerticalOptions="Center">
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="&#xf5eb;" HorizontalOptions="Center" TextColor="#FF940030">
+
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                                </Label.FontFamily>
+
+                            </Label>
+                            <Label Text="Go to" ></Label>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xf03d;" HorizontalOptions="Center" TextColor="#FF940030" >
+
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                                </Label.FontFamily>
+
+                            </Label>
+                            <Label x:Name="video" Text="See video" ></Label>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="&#xf554;" HorizontalOptions="Center" TextColor="#FF940030" >
+
+                                <Label.FontFamily>
+                                    <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                                </Label.FontFamily>
+
+                            </Label>
+                            <Label Text="TG" ></Label>
+                        </StackLayout>
+                    </StackLayout>
+
+
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5" HorizontalOptions="Center" VerticalOptions="Center">
+                <Label Text="Information about the place"></Label>
+            </StackLayout>
+
+
+        </Grid>
+
+        <Grid x:Name="videoPopup" BackgroundColor="#99FFFFFF" IsVisible="False"
+                  VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" ColumnSpacing="0" RowSpacing="0"
+              WidthRequest="200" HeightRequest="300">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="90*"/>
+            </Grid.RowDefinitions>
+
+
+
+            <StackLayout Grid.Row="0" Grid.RowSpan="2" Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+
+
+                <!-- Begin Header -->
+                <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                             Spacing="0" BackgroundColor="Transparent" HeightRequest="20" Grid.Column="0" Grid.Row="1">
+                    <StackLayout.Padding>
+                        <OnPlatform x:TypeArguments="Thickness"
+                            iOS="10, 10, 10, 10"
+                            Android="10, 10, 10, 10"
+                            WinPhone="10, 10, 10, 10" />
+                    </StackLayout.Padding>
+                    <!-- My header content -->
+                    <Label x:Name="closePopup" Text="&#xf00d;" WidthRequest="20" HeightRequest="20"
+                           VerticalOptions="Center" FontSize="Small"  HorizontalOptions="Start" TextColor="Black">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="ClosePopoUpTap_Tapped"></TapGestureRecognizer>
+                        </Label.GestureRecognizers>
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                        </Label.FontFamily>
+                    </Label>
+                </StackLayout>
+                <!-- End Header -->
+
+                <forms:MediaElement HorizontalOptions="Fill" 
+                                VerticalOptions="Center" 
+                                HeightRequest="240"
+                                x:Name="Media" 
+                                AutoPlay="False"
+                                AreTransportControlsEnabled="true"
+                                Source="https://www.youtube.com/watch?v=XDYbEuY8nIc"/>
 
 
             </StackLayout>
-        </StackLayout>
-        <StackLayout Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="Information about the place"></Label>
-        </StackLayout>
 
 
+        </Grid>
 
 
 
     </Grid>
+
 
 </ContentPage>

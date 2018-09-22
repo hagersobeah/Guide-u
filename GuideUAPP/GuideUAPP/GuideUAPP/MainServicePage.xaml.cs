@@ -9,22 +9,20 @@ using Xamarin.Forms.Xaml;
 
 namespace GuideUAPP
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class MainServicePage : MasterDetailPage
-	{
-		public MainServicePage()
-		{
-			InitializeComponent ();
-            restaurantImg.Source = ImageSource.FromResource("GuideUAPP.Assets.restaurant.png");
-            placesImg.Source = ImageSource.FromResource("GuideUAPP.Assets.places.png");
-            entertainmentPlacesImg.Source = ImageSource.FromResource("GuideUAPP.Assets.entertainmentplaces.png");
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class MainServicePage : MasterDetailPage
+    {
+        public MainServicePage()
+        {
+            InitializeComponent();
             TapGestureRecognizer profileTap = new TapGestureRecognizer();
             TapGestureRecognizer aboutUsTap = new TapGestureRecognizer();
             TapGestureRecognizer logoutTap = new TapGestureRecognizer();
             TapGestureRecognizer settingsTap = new TapGestureRecognizer();
             TapGestureRecognizer paymentTap = new TapGestureRecognizer();
             TapGestureRecognizer tourGuideTap = new TapGestureRecognizer();
-            TapGestureRecognizer placesImgTap = new TapGestureRecognizer();
+
+            TapGestureRecognizer menuTap = new TapGestureRecognizer();
 
 
             profileTap.Tapped += ProfileTap_Tapped;
@@ -33,8 +31,10 @@ namespace GuideUAPP
             paymentTap.Tapped += PaymentTap_Tapped;
             tourGuideTap.Tapped += TourGuideTap_Tapped;
             settingsTap.Tapped += SettingsTap_Tapped;
+            menuTap.Tapped += MenuTap_Tapped;
 
-            placesImgTap.Tapped += PlacesImgTap_Tapped;
+
+
 
 
 
@@ -44,22 +44,28 @@ namespace GuideUAPP
             settings.GestureRecognizers.Add(settingsTap);
             tourGuide.GestureRecognizers.Add(tourGuideTap);
             payment.GestureRecognizers.Add(paymentTap);
+            hamburgerMenu.GestureRecognizers.Add(menuTap);
+
+            
         }
 
-        private async void PlacesImgTap_Tapped(object sender, EventArgs e)
+        private void MenuTap_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new TouristicPlacePage());
+            var mainPage = (Application.Current.MainPage as NavigationPage).CurrentPage;
+            (mainPage as MasterDetailPage).IsPresented = true;
         }
+
+
 
         private async void SettingsTap_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SettingsPage());
+            await Navigation.PushAsync(new TouristicPlacePage());
         }
 
         private async void TourGuideTap_Tapped(object sender, EventArgs e)
         {
 
-            await Navigation.PushAsync(new TourGuideViewCode());
+            await Navigation.PushAsync(new TGHistory());
 
         }
 
@@ -71,7 +77,7 @@ namespace GuideUAPP
 
         private async void LogoutTap_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new LoginPage());
+            await Navigation.PushModalAsync(new SigninPage());
         }
 
         private async void AboutUsTap_Tapped(object sender, EventArgs e)
@@ -81,7 +87,9 @@ namespace GuideUAPP
 
         private async void ProfileTap_Tapped(object sender, EventArgs e)
         {
-            //await Navigation.PushAsync(new RegisterationPage());
+            await Navigation.PushAsync(new TouristProfile());
         }
+
+
     }
 }

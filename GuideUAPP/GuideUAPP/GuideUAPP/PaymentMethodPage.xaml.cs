@@ -9,13 +9,13 @@ using Xamarin.Forms.Xaml;
 
 namespace GuideUAPP
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class PaymentMethodPage : ContentPage
-	{
-		public PaymentMethodPage ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class PaymentMethodPage : ContentPage
+    {
+        public PaymentMethodPage()
+        {
+            InitializeComponent();
             cvvIcon.Source = ImageSource.FromResource("GuideUAPP.Assets.cvv.png");
-		}
-	}
+        }
+    }
 }

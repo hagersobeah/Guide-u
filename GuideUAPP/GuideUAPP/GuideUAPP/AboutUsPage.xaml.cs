@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace GuideUAPP
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class AboutUsPage : CarouselPage
-	{
-		public AboutUsPage ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class AboutUsPage : CarouselPage
+    {
+        public AboutUsPage()
+        {
+            InitializeComponent();
+        }
+    }
 }

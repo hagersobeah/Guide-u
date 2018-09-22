@@ -21,5 +21,7 @@
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.v7.cardview\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.v7.CardView.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.v7.cardview\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.v7.CardView.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.transition\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Transition.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.transition\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Transition.targets')" />
     <Import Project="$(NuGetPackageRoot)xamarin.android.support.design\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Design.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.design\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.Design.targets')" />
+    <Import Project="$(NuGetPackageRoot)xamarin.android.support.customtabs\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets" Condition="Exists('$(NuGetPackageRoot)xamarin.android.support.customtabs\25.4.0.2\build\MonoAndroid70\Xamarin.Android.Support.CustomTabs.targets')" />
+    <Import Project="$(NuGetPackageRoot)fody\3.2.4\build\Fody.targets" Condition="Exists('$(NuGetPackageRoot)fody\3.2.4\build\Fody.targets')" />
   </ImportGroup>
 </Project>

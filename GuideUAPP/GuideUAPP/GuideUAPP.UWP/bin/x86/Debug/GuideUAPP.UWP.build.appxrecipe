@@ -9,24 +9,177 @@
     <SolutionConfiguration>Debug|x86</SolutionConfiguration>
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
-    <PackageIdentityPublisher>CN=e7e961c2-8493-41cb-9b14-00c963d078c8</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <PackageIdentityPublisher>CN=73a73b96-d093-4d6d-8b92-92009717aefd</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.exe">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.exe">
       <PackagePath>entrypoint\GuideUAPP.UWP.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshIOC.dll">
+      <PackagePath>FreshIOC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\freshmvvm\2.2.4\lib\netstandard1.0\FreshMvvm.dll">
+      <PackagePath>FreshMvvm.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core\2.5.1\lib\netstandard2.0\Humanizer.dll">
+      <PackagePath>Humanizer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.af\2.5.1\lib\netstandard2.0\af\Humanizer.resources.dll">
+      <PackagePath>af\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ar\2.5.1\lib\netstandard2.0\ar\Humanizer.resources.dll">
+      <PackagePath>ar\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.bg\2.5.1\lib\netstandard2.0\bg\Humanizer.resources.dll">
+      <PackagePath>bg\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.bn-bd\2.5.1\lib\netstandard2.0\bn-BD\Humanizer.resources.dll">
+      <PackagePath>bn-BD\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.cs\2.5.1\lib\netstandard2.0\cs\Humanizer.resources.dll">
+      <PackagePath>cs\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.da\2.5.1\lib\netstandard2.0\da\Humanizer.resources.dll">
+      <PackagePath>da\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.de\2.5.1\lib\netstandard2.0\de\Humanizer.resources.dll">
+      <PackagePath>de\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.el\2.5.1\lib\netstandard2.0\el\Humanizer.resources.dll">
+      <PackagePath>el\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.es\2.5.1\lib\netstandard2.0\es\Humanizer.resources.dll">
+      <PackagePath>es\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fa\2.5.1\lib\netstandard2.0\fa\Humanizer.resources.dll">
+      <PackagePath>fa\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fi-fi\2.5.1\lib\netstandard2.0\fi-FI\Humanizer.resources.dll">
+      <PackagePath>fi-FI\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fr\2.5.1\lib\netstandard2.0\fr\Humanizer.resources.dll">
+      <PackagePath>fr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.fr-be\2.5.1\lib\netstandard2.0\fr-BE\Humanizer.resources.dll">
+      <PackagePath>fr-BE\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.he\2.5.1\lib\netstandard2.0\he\Humanizer.resources.dll">
+      <PackagePath>he\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.hr\2.5.1\lib\netstandard2.0\hr\Humanizer.resources.dll">
+      <PackagePath>hr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.hu\2.5.1\lib\netstandard2.0\hu\Humanizer.resources.dll">
+      <PackagePath>hu\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.id\2.5.1\lib\netstandard2.0\id\Humanizer.resources.dll">
+      <PackagePath>id\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.it\2.5.1\lib\netstandard2.0\it\Humanizer.resources.dll">
+      <PackagePath>it\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ja\2.5.1\lib\netstandard2.0\ja\Humanizer.resources.dll">
+      <PackagePath>ja\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.lv\2.5.1\lib\netstandard2.0\lv\Humanizer.resources.dll">
+      <PackagePath>lv\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.nb\2.5.1\lib\netstandard2.0\nb\Humanizer.resources.dll">
+      <PackagePath>nb\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.nb-no\2.5.1\lib\netstandard2.0\nb-NO\Humanizer.resources.dll">
+      <PackagePath>nb-NO\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.nl\2.5.1\lib\netstandard2.0\nl\Humanizer.resources.dll">
+      <PackagePath>nl\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.pl\2.5.1\lib\netstandard2.0\pl\Humanizer.resources.dll">
+      <PackagePath>pl\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.pt\2.5.1\lib\netstandard2.0\pt\Humanizer.resources.dll">
+      <PackagePath>pt\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ro\2.5.1\lib\netstandard2.0\ro\Humanizer.resources.dll">
+      <PackagePath>ro\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.ru\2.5.1\lib\netstandard2.0\ru\Humanizer.resources.dll">
+      <PackagePath>ru\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sk\2.5.1\lib\netstandard2.0\sk\Humanizer.resources.dll">
+      <PackagePath>sk\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sl\2.5.1\lib\netstandard2.0\sl\Humanizer.resources.dll">
+      <PackagePath>sl\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sr\2.5.1\lib\netstandard2.0\sr\Humanizer.resources.dll">
+      <PackagePath>sr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sr-latn\2.5.1\lib\netstandard2.0\sr-Latn\Humanizer.resources.dll">
+      <PackagePath>sr-Latn\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.sv\2.5.1\lib\netstandard2.0\sv\Humanizer.resources.dll">
+      <PackagePath>sv\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.tr\2.5.1\lib\netstandard2.0\tr\Humanizer.resources.dll">
+      <PackagePath>tr\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.uk\2.5.1\lib\netstandard2.0\uk\Humanizer.resources.dll">
+      <PackagePath>uk\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.uz-cyrl-uz\2.5.1\lib\netstandard2.0\uz-Cyrl-UZ\Humanizer.resources.dll">
+      <PackagePath>uz-Cyrl-UZ\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.uz-latn-uz\2.5.1\lib\netstandard2.0\uz-Latn-UZ\Humanizer.resources.dll">
+      <PackagePath>uz-Latn-UZ\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.vi\2.5.1\lib\netstandard2.0\vi\Humanizer.resources.dll">
+      <PackagePath>vi\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.zh-cn\2.5.1\lib\netstandard2.0\zh-CN\Humanizer.resources.dll">
+      <PackagePath>zh-CN\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.zh-hans\2.5.1\lib\netstandard2.0\zh-Hans\Humanizer.resources.dll">
+      <PackagePath>zh-Hans\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\humanizer.core.zh-hant\2.5.1\lib\netstandard2.0\zh-Hant\Humanizer.resources.dll">
+      <PackagePath>zh-Hant\Humanizer.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\inthehand.forms\1.0.2018.828\lib\uap10.0\InTheHand.Forms.Platform.UWP.dll">
+      <PackagePath>InTheHand.Forms.Platform.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\inthehand.forms\1.0.2018.828\lib\uap10.0\InTheHand.Forms.dll">
+      <PackagePath>InTheHand.Forms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\microsoft.net.http\2.2.29\lib\win8\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\newtonsoft.json\8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\plugin.share\7.1.1\lib\UAP10\Plugin.Share.Abstractions.dll">
+      <PackagePath>Plugin.Share.Abstractions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\plugin.share\7.1.1\lib\UAP10\Plugin.Share.dll">
+      <PackagePath>Plugin.Share.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\propertychanged.fody\2.5.11\lib\netstandard1.0\PropertyChanged.dll">
+      <PackagePath>PropertyChanged.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -520,6 +673,27 @@
     <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.0.1\runtimes\win10-x86\lib\uap10.0.15138\netstandard.dll">
       <PackagePath>netstandard.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlite-net-pcl\1.5.231\lib\netstandard1.1\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_green.dll">
+      <PackagePath>SQLitePCLRaw.batteries_green.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.bundle_green\1.1.11\lib\uap10.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.core\1.1.11\lib\uap10.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.lib.e_sqlite3.v140\1.1.11\runtimes\win10-x86\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\sqlitepclraw.provider.e_sqlite3.uwp10\1.1.11\lib\uap10.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\xam.plugins.forms.imagecircle\3.0.0.5\lib\uap10.0.16299\ImageCircle.Forms.Plugin.dll">
+      <PackagePath>ImageCircle.Forms.Plugin.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\xamarin.forms\3.0.0.561731\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -538,160 +712,187 @@
     <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\xamarin.forms.maps\3.0.0.561731\lib\uap10.0\Xamarin.Forms.Maps.dll">
       <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP\bin\Debug\netstandard2.0\GuideUAPP.dll">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP\bin\Debug\netstandard2.0\GuideUAPP.dll">
       <PackagePath>GuideUAPP.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\rating.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\rating.PNG">
       <PackagePath>Assets\rating.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingg.PNG">
       <PackagePath>Assets\ratingg.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggg.PNG">
       <PackagePath>Assets\ratinggg.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingggg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratingggg.PNG">
       <PackagePath>Assets\ratingggg.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggggg.PNG">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\ratinggggg.PNG">
       <PackagePath>Assets\ratinggggg.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tg.PNG">
-      <PackagePath>Assets\tg.PNG</PackagePath>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgboy.png">
+      <PackagePath>Assets\tgboy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgg.PNG">
-      <PackagePath>Assets\tgg.PNG</PackagePath>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgboyy.png">
+      <PackagePath>Assets\tgboyy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggg.PNG">
-      <PackagePath>Assets\tggg.PNG</PackagePath>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgboyyy.png">
+      <PackagePath>Assets\tgboyyy.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirl.png">
+      <PackagePath>Assets\tggirl.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirll.png">
+      <PackagePath>Assets\tggirll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirlll.png">
+      <PackagePath>Assets\tggirlll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirllll.png">
+      <PackagePath>Assets\tggirllll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tggirlllll.png">
+      <PackagePath>Assets\tggirlllll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmale.png">
+      <PackagePath>Assets\tgmale.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmalee.png">
+      <PackagePath>Assets\tgmalee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmaleee.png">
+      <PackagePath>Assets\tgmaleee.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\tgmaleeepng.png">
+      <PackagePath>Assets\tgmaleeepng.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Brands-Regular-400.otf">
-      <PackagePath>Assets\Font Awesome 5 Brands-Regular-400.otf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Regular-400.otf">
-      <PackagePath>Assets\Font Awesome 5 Free-Regular-400.otf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Solid-900.otf">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Solid-900.otf">
       <PackagePath>Assets\Font Awesome 5 Free-Solid-900.otf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Brands-Regular-400.otf">
+      <PackagePath>Assets\Font Awesome 5 Brands-Regular-400.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\Assets\Font Awesome 5 Free-Regular-400.otf">
+      <PackagePath>Assets\Font Awesome 5 Free-Regular-400.otf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\GuideUAPP.UWP.xr.xml">
       <PackagePath>GuideUAPP.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
@@ -730,11 +931,11 @@
     <AppxPackagedFile Include="C:\Users\ea\.nuget\packages\xamarin.forms\3.0.0.561731\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\SIH\Repos\Version2\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\GuideUAPP.UWP.exe">
+    <AppxPackagedFile Include="D:\SIH\Repos\Version3\GuideUAPP\GuideUAPP\GuideUAPP.UWP\bin\x86\Debug\Core\GuideUAPP.UWP.exe">
       <PackagePath>GuideUAPP.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -3,45 +3,48 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
               xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
                   NavigationPage.HasNavigationBar="False"
+                  xmlns:local="clr-namespace:GuideUAPP" 
              x:Class="GuideUAPP.MainServicePage">
     <MasterDetailPage.Master >
-        <!-- Menu side-->
-        <ContentPage Title="Menu" BackgroundColor="#FFFFF7A9">
+
+
+        <ContentPage x:Name="MenuSidePage" Title="Menu" BackgroundColor="White">
             <Grid Padding="0">
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="5*"/>
-                    <ColumnDefinition Width="37*"/>
-                    <ColumnDefinition Width="276*"/>
-                    <ColumnDefinition Width="42*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="13*"/>
+                    <ColumnDefinition Width="70*"/>
+                    <ColumnDefinition Width="15*"/>
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="104*"/>
-                    <RowDefinition Height="35*"/>
-                    <RowDefinition Height="30*"/>
-                    <RowDefinition Height="30*"/>
-                    <RowDefinition Height="30*"/>
-                    <RowDefinition Height="30*"/>
-                    <RowDefinition Height="30*"/>
-                    <RowDefinition Height="269*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="20*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="36*"/>
                 </Grid.RowDefinitions>
 
-                <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="#FFFFBE0F" >
+                <Grid Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="4" BackgroundColor="#FFFFE7A6" >
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="5*"/>
-                        <ColumnDefinition Width="37*"/>
-                        <ColumnDefinition Width="276*"/>
-                        <ColumnDefinition Width="42*"/>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="13*"/>
+                        <ColumnDefinition Width="70*"/>
+                        <ColumnDefinition Width="15*"/>
                     </Grid.ColumnDefinitions>
 
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="104*"/>
-                        <RowDefinition Height="35*"/>
+                        <RowDefinition Height="80*"/>
+                        <RowDefinition Height="20*"/>
                     </Grid.RowDefinitions>
 
                     <StackLayout x:Name="profileGrid"  Grid.Row="0" Grid.RowSpan="2" Grid.Column="2"  Orientation="Vertical"  HorizontalOptions="Center" VerticalOptions="Center">
 
-                        <Label Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="&#xf007;" FontSize="70" TextColor="White">
+                        <Label Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" Text="&#xf007;" FontSize="70" TextColor="White">
                             <Label.FontFamily>
                                 <OnPlatform x:TypeArguments="x:String"
                                 Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
@@ -49,14 +52,14 @@
                                 WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                             </Label.FontFamily>
                         </Label>
-                        <Label Grid.Row="1" Grid.Column="2" Text="Hager Sobeah" HorizontalOptions="Start" FontAttributes="Bold" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                        <Label Grid.Row="2" Grid.Column="2" Text="Hager Sobeah" HorizontalOptions="Start" FontAttributes="Bold" VerticalOptions="Center" TextColor="#FF1076DC"></Label>
                     </StackLayout>
                 </Grid>
 
                 <!--Tour Guide-->
-                <StackLayout x:Name="tourGuide" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="2">
-                    <Label Grid.Column="1" Grid.Row="2" Text="&#xf554;" BackgroundColor="Transparent"
-                           VerticalOptions="Center" FontSize="Small"  HorizontalOptions="Start" TextColor="#FF134866">
+                <StackLayout x:Name="tourGuide" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3">
+                    <Label Grid.Column="1" Grid.Row="3" Text="&#xf554;" BackgroundColor="Transparent"
+                           VerticalOptions="Center" FontSize="Small"  HorizontalOptions="Start" TextColor="#FF1076DC">
                         <Label.FontFamily>
                             <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
@@ -64,13 +67,13 @@
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                         </Label.FontFamily>
                     </Label>
-                    <Label Grid.Column="2" Grid.Row="2" Text=" Tour Guide" BackgroundColor="Transparent"
-                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                    <Label Grid.Column="2" Grid.Row="3" Text=" Tour Guide" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF1076DC"></Label>
                 </StackLayout>
                 <!--Payment Method-->
-                <StackLayout x:Name="payment" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="3">
-                    <Label Grid.Column="1" Grid.Row="3" Text="&#xf09d;" BackgroundColor="Transparent"
-                               VerticalOptions="Center" FontSize="15" HorizontalOptions="Start" TextColor="#FF134866">
+                <StackLayout x:Name="payment" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4">
+                    <Label Grid.Column="1" Grid.Row="4" Text="&#xf09d;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="15" HorizontalOptions="Start" TextColor="#FF1076DC">
                         <Label.FontFamily>
                             <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
@@ -78,13 +81,13 @@
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                         </Label.FontFamily>
                     </Label>
-                    <Label Grid.Column="2" Grid.Row="3" Text="Payment Method" BackgroundColor="Transparent"
-                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                    <Label Grid.Column="2" Grid.Row="4" Text="Payment Method" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF1076DC"></Label>
                 </StackLayout>
                 <!--Settings-->
-                <StackLayout x:Name="settings" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="4">
-                    <Label Grid.Column="1" Grid.Row="4" Text="&#xf013;" BackgroundColor="Transparent"
-                               VerticalOptions="Center" FontSize="Small" HorizontalOptions="Start" TextColor="#FF134866">
+                <StackLayout x:Name="settings" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5">
+                    <Label Grid.Column="1" Grid.Row="5" Text="&#xf013;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="Small" HorizontalOptions="Start" TextColor="#FF1076DC">
                         <Label.FontFamily>
                             <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
@@ -92,13 +95,13 @@
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                         </Label.FontFamily>
                     </Label>
-                    <Label Grid.Column="2" Grid.Row="4" Text="Settings" BackgroundColor="Transparent"
-                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                    <Label Grid.Column="2" Grid.Row="5" Text="Settings" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF1076DC"></Label>
                 </StackLayout>
                 <!--About us-->
-                <StackLayout x:Name="aboutUs" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="5">
-                    <Label Grid.Column="1" Grid.Row="5" Text="&#xf05a;" BackgroundColor="Transparent"
-                               VerticalOptions="Center" FontSize="Small" HorizontalOptions="Start" TextColor="#FF134866">
+                <StackLayout x:Name="aboutUs" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6">
+                    <Label Grid.Column="1" Grid.Row="6" Text="&#xf05a;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="Small" HorizontalOptions="Start" TextColor="#FF1076DC">
                         <Label.FontFamily>
                             <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
@@ -106,13 +109,13 @@
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                         </Label.FontFamily>
                     </Label>
-                    <Label Grid.Column="2" Grid.Row="5" Text="About us" BackgroundColor="Transparent"
-                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                    <Label Grid.Column="2" Grid.Row="6" Text="About us" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF1076DC"></Label>
                 </StackLayout>
                 <!--Logout-->
-                <StackLayout x:Name="logout" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="6">
-                    <Label Grid.Column="1" Grid.Row="6" Text="&#xf2f5;" BackgroundColor="Transparent"
-                               VerticalOptions="Center" FontSize="20" HorizontalOptions="Start" TextColor="#FF134866">
+                <StackLayout x:Name="logout" Orientation="Horizontal" Grid.Column="1" Grid.ColumnSpan="2" Grid.Row="7">
+                    <Label Grid.Column="1" Grid.Row="7" Text="&#xf2f5;" BackgroundColor="Transparent"
+                               VerticalOptions="Center" FontSize="20" HorizontalOptions="Start" TextColor="#FF1076DC">
                         <Label.FontFamily>
                             <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
@@ -120,44 +123,69 @@
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                         </Label.FontFamily>
                     </Label>
-                    <Label Grid.Column="2" Grid.Row="6" Text="Logout" BackgroundColor="Transparent"
-                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF134866"></Label>
+                    <Label Grid.Column="2" Grid.Row="7" Text="Logout" BackgroundColor="Transparent"
+                               HorizontalOptions="Start" VerticalOptions="Center" TextColor="#FF1076DC"></Label>
                 </StackLayout>
 
             </Grid>
 
 
         </ContentPage>
-
 
     </MasterDetailPage.Master>
 
     <MasterDetailPage.Detail>
         <!-- Main Page-->
+        <ContentPage>
+            <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" ColumnSpacing="0" RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="10*"/>
+
+                    <RowDefinition Height="90*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Begin Header -->
+                <StackLayout
+            Orientation="Vertical"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            Spacing="0"
+            BackgroundColor="#FF1076DC"
+            HeightRequest="40"
+            Grid.Column="0" Grid.Row="0">
+                    <StackLayout.Padding>
+                        <OnPlatform x:TypeArguments="Thickness"
+                            iOS="10, 10, 10, 10"
+                            Android="10, 10, 10, 10"
+                            WinPhone="10, 10, 10, 10" />
+                    </StackLayout.Padding>
+                    <!-- My header content to make my app the prettiest. -->
+                    <Label x:Name="hamburgerMenu" Text="&#xf0c9;" WidthRequest="40" HeightRequest="40"
+                           VerticalOptions="Center" FontSize="Small"  HorizontalOptions="Start" TextColor="White">
+
+                        <Label.FontFamily>
+                            <OnPlatform x:TypeArguments="x:String"
+                            Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
+                            iOS="Font Awesome 5 Free" 
+                            WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
+                        </Label.FontFamily>
+                    </Label>
+                </StackLayout>
+                <!-- End Header -->
 
 
-        <ContentPage Title="Main Page">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="70*"/>
-                    <ColumnDefinition Width="30*"/>
-                </Grid.ColumnDefinitions>
-
-                <StackLayout Grid.Column="0" Grid.ColumnSpan="2" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+                <StackLayout Grid.Column="0" Grid.Row="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <maps:Map x:Name="MyMap" MapType="Street"/>
 
                 </StackLayout>
-                <StackLayout  Grid.Column="1" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="End">
-                    <Image x:Name="restaurantImg" Grid.Column="1"  WidthRequest="60" HeightRequest="60"></Image>
-                    <Image x:Name="placesImg" Grid.Column="1" WidthRequest="60" HeightRequest="60"></Image>
-                    <Image x:Name="entertainmentPlacesImg" Grid.Column="1" WidthRequest="60" HeightRequest="60"></Image>
 
-                </StackLayout>
 
 
 
             </Grid>
         </ContentPage>
+
+
 
     </MasterDetailPage.Detail>
 </MasterDetailPage>

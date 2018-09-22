@@ -1,4 +1,5 @@
 WinMetadata\Windows.winmd
+e_sqlite3.dll
 Assets\Font Awesome 5 Brands-Regular-400.otf
 Assets\Font Awesome 5 Free-Regular-400.otf
 Assets\Font Awesome 5 Free-Solid-900.otf
@@ -31,9 +32,18 @@ Assets\Square44x44Logo.targetsize-48.png
 Assets\StoreLogo.scale-100.png
 Assets\StoreLogo.scale-200.png
 Assets\StoreLogo.scale-400.png
-Assets\tg.PNG
-Assets\tgg.PNG
-Assets\tggg.PNG
+Assets\tgboy.png
+Assets\tgboyy.png
+Assets\tgboyyy.png
+Assets\tggirl.png
+Assets\tggirll.png
+Assets\tggirlll.png
+Assets\tggirllll.png
+Assets\tggirlllll.png
+Assets\tgmale.png
+Assets\tgmalee.png
+Assets\tgmaleee.png
+Assets\tgmaleeepng.png
 Assets\Wide310x150Logo.scale-100.png
 Assets\Wide310x150Logo.scale-200.png
 Assets\Wide310x150Logo.scale-400.png

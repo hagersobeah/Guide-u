@@ -9,12 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace GuideUAPP
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SettingsPage : ContentPage
-	{
-		public SettingsPage ()
-		{
-			InitializeComponent ();
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class SettingsPage : ContentPage
+    {
+        public SettingsPage()
+        {
+            InitializeComponent();
 
             TapGestureRecognizer editProfileTap = new TapGestureRecognizer();
             editProfileTap.Tapped += EditProfileTap_Tapped;
@@ -23,7 +23,7 @@ namespace GuideUAPP
         }
         private async void EditProfileTap_Tapped(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new LoginPage());
+            //await Navigation.PushAsync(new EditTouristProfilePage());
         }
     }
 }

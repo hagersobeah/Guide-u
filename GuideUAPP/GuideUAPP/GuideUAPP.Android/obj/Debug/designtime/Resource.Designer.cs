@@ -26,6 +26,2127 @@ namespace GuideUAPP.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::GuideUAPP.Droid.Resource.Animation.abc_fade_in;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::GuideUAPP.Droid.Resource.Animation.abc_fade_out;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::GuideUAPP.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_popup_enter = global::GuideUAPP.Droid.Resource.Animation.abc_popup_enter;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_popup_exit = global::GuideUAPP.Droid.Resource.Animation.abc_popup_exit;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::GuideUAPP.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_slide_in_bottom = global::GuideUAPP.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_slide_in_top = global::GuideUAPP.Droid.Resource.Animation.abc_slide_in_top;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_slide_out_bottom = global::GuideUAPP.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.abc_slide_out_top = global::GuideUAPP.Droid.Resource.Animation.abc_slide_out_top;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_in = global::GuideUAPP.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.design_bottom_sheet_slide_out = global::GuideUAPP.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.design_fab_in = global::GuideUAPP.Droid.Resource.Animation.design_fab_in;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.design_fab_out = global::GuideUAPP.Droid.Resource.Animation.design_fab_out;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.design_snackbar_in = global::GuideUAPP.Droid.Resource.Animation.design_snackbar_in;
+			global::InTheHand.Forms.Platform.Android.Resource.Animation.design_snackbar_out = global::GuideUAPP.Droid.Resource.Animation.design_snackbar_out;
+			global::InTheHand.Forms.Platform.Android.Resource.Animator.design_appbar_state_list_animator = global::GuideUAPP.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarDivider = global::GuideUAPP.Droid.Resource.Attribute.actionBarDivider;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarItemBackground = global::GuideUAPP.Droid.Resource.Attribute.actionBarItemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarPopupTheme = global::GuideUAPP.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::GuideUAPP.Droid.Resource.Attribute.actionBarSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarSplitStyle = global::GuideUAPP.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarStyle = global::GuideUAPP.Droid.Resource.Attribute.actionBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarTabBarStyle = global::GuideUAPP.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarTabStyle = global::GuideUAPP.Droid.Resource.Attribute.actionBarTabStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarTabTextStyle = global::GuideUAPP.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarTheme = global::GuideUAPP.Droid.Resource.Attribute.actionBarTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionBarWidgetTheme = global::GuideUAPP.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.actionButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionDropDownStyle = global::GuideUAPP.Droid.Resource.Attribute.actionDropDownStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionLayout = global::GuideUAPP.Droid.Resource.Attribute.actionLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionMenuTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionMenuTextColor = global::GuideUAPP.Droid.Resource.Attribute.actionMenuTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeBackground = global::GuideUAPP.Droid.Resource.Attribute.actionModeBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeCloseButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeCloseDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeCopyDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeCutDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeFindDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModePasteDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModePopupWindowStyle = global::GuideUAPP.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeSelectAllDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeShareDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeSplitBackground = global::GuideUAPP.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeStyle = global::GuideUAPP.Droid.Resource.Attribute.actionModeStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionModeWebSearchDrawable = global::GuideUAPP.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionOverflowButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionOverflowMenuStyle = global::GuideUAPP.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionProviderClass = global::GuideUAPP.Droid.Resource.Attribute.actionProviderClass;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.actionViewClass = global::GuideUAPP.Droid.Resource.Attribute.actionViewClass;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.activityChooserViewStyle = global::GuideUAPP.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::GuideUAPP.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.alertDialogCenterButtons = global::GuideUAPP.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.alertDialogStyle = global::GuideUAPP.Droid.Resource.Attribute.alertDialogStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.alertDialogTheme = global::GuideUAPP.Droid.Resource.Attribute.alertDialogTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.allowStacking = global::GuideUAPP.Droid.Resource.Attribute.allowStacking;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.alpha = global::GuideUAPP.Droid.Resource.Attribute.alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.arrowHeadLength = global::GuideUAPP.Droid.Resource.Attribute.arrowHeadLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.arrowShaftLength = global::GuideUAPP.Droid.Resource.Attribute.arrowShaftLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.autoCompleteTextViewStyle = global::GuideUAPP.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.background = global::GuideUAPP.Droid.Resource.Attribute.background;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.backgroundSplit = global::GuideUAPP.Droid.Resource.Attribute.backgroundSplit;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.backgroundStacked = global::GuideUAPP.Droid.Resource.Attribute.backgroundStacked;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.backgroundTint = global::GuideUAPP.Droid.Resource.Attribute.backgroundTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.backgroundTintMode = global::GuideUAPP.Droid.Resource.Attribute.backgroundTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.barLength = global::GuideUAPP.Droid.Resource.Attribute.barLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.behavior_autoHide = global::GuideUAPP.Droid.Resource.Attribute.behavior_autoHide;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.behavior_hideable = global::GuideUAPP.Droid.Resource.Attribute.behavior_hideable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.behavior_overlapTop = global::GuideUAPP.Droid.Resource.Attribute.behavior_overlapTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.behavior_peekHeight = global::GuideUAPP.Droid.Resource.Attribute.behavior_peekHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.behavior_skipCollapsed = global::GuideUAPP.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.borderWidth = global::GuideUAPP.Droid.Resource.Attribute.borderWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.borderlessButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.bottomSheetDialogTheme = global::GuideUAPP.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.bottomSheetStyle = global::GuideUAPP.Droid.Resource.Attribute.bottomSheetStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonBarButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonBarStyle = global::GuideUAPP.Droid.Resource.Attribute.buttonBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonGravity = global::GuideUAPP.Droid.Resource.Attribute.buttonGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonPanelSideLayout = global::GuideUAPP.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonStyle = global::GuideUAPP.Droid.Resource.Attribute.buttonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonStyleSmall = global::GuideUAPP.Droid.Resource.Attribute.buttonStyleSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonTint = global::GuideUAPP.Droid.Resource.Attribute.buttonTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.buttonTintMode = global::GuideUAPP.Droid.Resource.Attribute.buttonTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.cardBackgroundColor = global::GuideUAPP.Droid.Resource.Attribute.cardBackgroundColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.cardCornerRadius = global::GuideUAPP.Droid.Resource.Attribute.cardCornerRadius;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.cardElevation = global::GuideUAPP.Droid.Resource.Attribute.cardElevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.cardMaxElevation = global::GuideUAPP.Droid.Resource.Attribute.cardMaxElevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.cardPreventCornerOverlap = global::GuideUAPP.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.cardUseCompatPadding = global::GuideUAPP.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.checkboxStyle = global::GuideUAPP.Droid.Resource.Attribute.checkboxStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::GuideUAPP.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.closeIcon = global::GuideUAPP.Droid.Resource.Attribute.closeIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.closeItemLayout = global::GuideUAPP.Droid.Resource.Attribute.closeItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.collapseContentDescription = global::GuideUAPP.Droid.Resource.Attribute.collapseContentDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.collapseIcon = global::GuideUAPP.Droid.Resource.Attribute.collapseIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.collapsedTitleGravity = global::GuideUAPP.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.collapsedTitleTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.color = global::GuideUAPP.Droid.Resource.Attribute.color;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorAccent = global::GuideUAPP.Droid.Resource.Attribute.colorAccent;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorBackgroundFloating = global::GuideUAPP.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorButtonNormal = global::GuideUAPP.Droid.Resource.Attribute.colorButtonNormal;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorControlActivated = global::GuideUAPP.Droid.Resource.Attribute.colorControlActivated;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorControlHighlight = global::GuideUAPP.Droid.Resource.Attribute.colorControlHighlight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorControlNormal = global::GuideUAPP.Droid.Resource.Attribute.colorControlNormal;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorPrimary = global::GuideUAPP.Droid.Resource.Attribute.colorPrimary;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorPrimaryDark = global::GuideUAPP.Droid.Resource.Attribute.colorPrimaryDark;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::GuideUAPP.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.commitIcon = global::GuideUAPP.Droid.Resource.Attribute.commitIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentInsetEnd = global::GuideUAPP.Droid.Resource.Attribute.contentInsetEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentInsetEndWithActions = global::GuideUAPP.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentInsetLeft = global::GuideUAPP.Droid.Resource.Attribute.contentInsetLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentInsetRight = global::GuideUAPP.Droid.Resource.Attribute.contentInsetRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentInsetStart = global::GuideUAPP.Droid.Resource.Attribute.contentInsetStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentInsetStartWithNavigation = global::GuideUAPP.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentPadding = global::GuideUAPP.Droid.Resource.Attribute.contentPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentPaddingBottom = global::GuideUAPP.Droid.Resource.Attribute.contentPaddingBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentPaddingLeft = global::GuideUAPP.Droid.Resource.Attribute.contentPaddingLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentPaddingRight = global::GuideUAPP.Droid.Resource.Attribute.contentPaddingRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentPaddingTop = global::GuideUAPP.Droid.Resource.Attribute.contentPaddingTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.contentScrim = global::GuideUAPP.Droid.Resource.Attribute.contentScrim;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.controlBackground = global::GuideUAPP.Droid.Resource.Attribute.controlBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.counterEnabled = global::GuideUAPP.Droid.Resource.Attribute.counterEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.counterMaxLength = global::GuideUAPP.Droid.Resource.Attribute.counterMaxLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.counterOverflowTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.counterTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.counterTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.customNavigationLayout = global::GuideUAPP.Droid.Resource.Attribute.customNavigationLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.defaultQueryHint = global::GuideUAPP.Droid.Resource.Attribute.defaultQueryHint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.dialogPreferredPadding = global::GuideUAPP.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.dialogTheme = global::GuideUAPP.Droid.Resource.Attribute.dialogTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.displayOptions = global::GuideUAPP.Droid.Resource.Attribute.displayOptions;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.divider = global::GuideUAPP.Droid.Resource.Attribute.divider;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.dividerHorizontal = global::GuideUAPP.Droid.Resource.Attribute.dividerHorizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.dividerPadding = global::GuideUAPP.Droid.Resource.Attribute.dividerPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.dividerVertical = global::GuideUAPP.Droid.Resource.Attribute.dividerVertical;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.drawableSize = global::GuideUAPP.Droid.Resource.Attribute.drawableSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.drawerArrowStyle = global::GuideUAPP.Droid.Resource.Attribute.drawerArrowStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.dropDownListViewStyle = global::GuideUAPP.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::GuideUAPP.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.editTextBackground = global::GuideUAPP.Droid.Resource.Attribute.editTextBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.editTextColor = global::GuideUAPP.Droid.Resource.Attribute.editTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.editTextStyle = global::GuideUAPP.Droid.Resource.Attribute.editTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.elevation = global::GuideUAPP.Droid.Resource.Attribute.elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.errorEnabled = global::GuideUAPP.Droid.Resource.Attribute.errorEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.errorTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.errorTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::GuideUAPP.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expanded = global::GuideUAPP.Droid.Resource.Attribute.expanded;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandedTitleGravity = global::GuideUAPP.Droid.Resource.Attribute.expandedTitleGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandedTitleMargin = global::GuideUAPP.Droid.Resource.Attribute.expandedTitleMargin;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginBottom = global::GuideUAPP.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginEnd = global::GuideUAPP.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginStart = global::GuideUAPP.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandedTitleMarginTop = global::GuideUAPP.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.expandedTitleTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.externalRouteEnabledDrawable = global::GuideUAPP.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.fabSize = global::GuideUAPP.Droid.Resource.Attribute.fabSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.foregroundInsidePadding = global::GuideUAPP.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.gapBetweenBars = global::GuideUAPP.Droid.Resource.Attribute.gapBetweenBars;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.goIcon = global::GuideUAPP.Droid.Resource.Attribute.goIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.headerLayout = global::GuideUAPP.Droid.Resource.Attribute.headerLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.height = global::GuideUAPP.Droid.Resource.Attribute.height;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.hideOnContentScroll = global::GuideUAPP.Droid.Resource.Attribute.hideOnContentScroll;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.hintAnimationEnabled = global::GuideUAPP.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.hintEnabled = global::GuideUAPP.Droid.Resource.Attribute.hintEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.hintTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.hintTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.homeAsUpIndicator = global::GuideUAPP.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.homeLayout = global::GuideUAPP.Droid.Resource.Attribute.homeLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.icon = global::GuideUAPP.Droid.Resource.Attribute.icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.iconifiedByDefault = global::GuideUAPP.Droid.Resource.Attribute.iconifiedByDefault;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.imageButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.imageButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.indeterminateProgressStyle = global::GuideUAPP.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.initialActivityCount = global::GuideUAPP.Droid.Resource.Attribute.initialActivityCount;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.insetForeground = global::GuideUAPP.Droid.Resource.Attribute.insetForeground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.isLightTheme = global::GuideUAPP.Droid.Resource.Attribute.isLightTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.itemBackground = global::GuideUAPP.Droid.Resource.Attribute.itemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.itemIconTint = global::GuideUAPP.Droid.Resource.Attribute.itemIconTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.itemPadding = global::GuideUAPP.Droid.Resource.Attribute.itemPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.itemTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.itemTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.itemTextColor = global::GuideUAPP.Droid.Resource.Attribute.itemTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.keylines = global::GuideUAPP.Droid.Resource.Attribute.keylines;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout = global::GuideUAPP.Droid.Resource.Attribute.layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layoutManager = global::GuideUAPP.Droid.Resource.Attribute.layoutManager;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_anchor = global::GuideUAPP.Droid.Resource.Attribute.layout_anchor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_anchorGravity = global::GuideUAPP.Droid.Resource.Attribute.layout_anchorGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_behavior = global::GuideUAPP.Droid.Resource.Attribute.layout_behavior;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_collapseMode = global::GuideUAPP.Droid.Resource.Attribute.layout_collapseMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::GuideUAPP.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_dodgeInsetEdges = global::GuideUAPP.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_insetEdge = global::GuideUAPP.Droid.Resource.Attribute.layout_insetEdge;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_keyline = global::GuideUAPP.Droid.Resource.Attribute.layout_keyline;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_scrollFlags = global::GuideUAPP.Droid.Resource.Attribute.layout_scrollFlags;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.layout_scrollInterpolator = global::GuideUAPP.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::GuideUAPP.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listDividerAlertDialog = global::GuideUAPP.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listItemLayout = global::GuideUAPP.Droid.Resource.Attribute.listItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listLayout = global::GuideUAPP.Droid.Resource.Attribute.listLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listMenuViewStyle = global::GuideUAPP.Droid.Resource.Attribute.listMenuViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listPopupWindowStyle = global::GuideUAPP.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeight = global::GuideUAPP.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightLarge = global::GuideUAPP.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listPreferredItemHeightSmall = global::GuideUAPP.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::GuideUAPP.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingRight = global::GuideUAPP.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.logo = global::GuideUAPP.Droid.Resource.Attribute.logo;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.logoDescription = global::GuideUAPP.Droid.Resource.Attribute.logoDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.maxActionInlineWidth = global::GuideUAPP.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.maxButtonHeight = global::GuideUAPP.Droid.Resource.Attribute.maxButtonHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.measureWithLargestChild = global::GuideUAPP.Droid.Resource.Attribute.measureWithLargestChild;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteCloseDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRoutePauseDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRoutePlayDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteStopDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteTheme = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::GuideUAPP.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.menu = global::GuideUAPP.Droid.Resource.Attribute.menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.multiChoiceItemLayout = global::GuideUAPP.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.navigationContentDescription = global::GuideUAPP.Droid.Resource.Attribute.navigationContentDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.navigationIcon = global::GuideUAPP.Droid.Resource.Attribute.navigationIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.navigationMode = global::GuideUAPP.Droid.Resource.Attribute.navigationMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.overlapAnchor = global::GuideUAPP.Droid.Resource.Attribute.overlapAnchor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.paddingBottomNoButtons = global::GuideUAPP.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.paddingEnd = global::GuideUAPP.Droid.Resource.Attribute.paddingEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.paddingStart = global::GuideUAPP.Droid.Resource.Attribute.paddingStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.paddingTopNoTitle = global::GuideUAPP.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.panelBackground = global::GuideUAPP.Droid.Resource.Attribute.panelBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.panelMenuListTheme = global::GuideUAPP.Droid.Resource.Attribute.panelMenuListTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.panelMenuListWidth = global::GuideUAPP.Droid.Resource.Attribute.panelMenuListWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.passwordToggleContentDescription = global::GuideUAPP.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.passwordToggleDrawable = global::GuideUAPP.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.passwordToggleEnabled = global::GuideUAPP.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.passwordToggleTint = global::GuideUAPP.Droid.Resource.Attribute.passwordToggleTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.passwordToggleTintMode = global::GuideUAPP.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.popupMenuStyle = global::GuideUAPP.Droid.Resource.Attribute.popupMenuStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.popupTheme = global::GuideUAPP.Droid.Resource.Attribute.popupTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.popupWindowStyle = global::GuideUAPP.Droid.Resource.Attribute.popupWindowStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.preserveIconSpacing = global::GuideUAPP.Droid.Resource.Attribute.preserveIconSpacing;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.pressedTranslationZ = global::GuideUAPP.Droid.Resource.Attribute.pressedTranslationZ;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.progressBarPadding = global::GuideUAPP.Droid.Resource.Attribute.progressBarPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.progressBarStyle = global::GuideUAPP.Droid.Resource.Attribute.progressBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.queryBackground = global::GuideUAPP.Droid.Resource.Attribute.queryBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.queryHint = global::GuideUAPP.Droid.Resource.Attribute.queryHint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.radioButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.radioButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.ratingBarStyle = global::GuideUAPP.Droid.Resource.Attribute.ratingBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.ratingBarStyleIndicator = global::GuideUAPP.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.ratingBarStyleSmall = global::GuideUAPP.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.reverseLayout = global::GuideUAPP.Droid.Resource.Attribute.reverseLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.rippleColor = global::GuideUAPP.Droid.Resource.Attribute.rippleColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::GuideUAPP.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::GuideUAPP.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.searchHintIcon = global::GuideUAPP.Droid.Resource.Attribute.searchHintIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.searchIcon = global::GuideUAPP.Droid.Resource.Attribute.searchIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.searchViewStyle = global::GuideUAPP.Droid.Resource.Attribute.searchViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.seekBarStyle = global::GuideUAPP.Droid.Resource.Attribute.seekBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.selectableItemBackground = global::GuideUAPP.Droid.Resource.Attribute.selectableItemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::GuideUAPP.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.showAsAction = global::GuideUAPP.Droid.Resource.Attribute.showAsAction;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.showDividers = global::GuideUAPP.Droid.Resource.Attribute.showDividers;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.showText = global::GuideUAPP.Droid.Resource.Attribute.showText;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.showTitle = global::GuideUAPP.Droid.Resource.Attribute.showTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.singleChoiceItemLayout = global::GuideUAPP.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.spanCount = global::GuideUAPP.Droid.Resource.Attribute.spanCount;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.spinBars = global::GuideUAPP.Droid.Resource.Attribute.spinBars;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.spinnerDropDownItemStyle = global::GuideUAPP.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.spinnerStyle = global::GuideUAPP.Droid.Resource.Attribute.spinnerStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.splitTrack = global::GuideUAPP.Droid.Resource.Attribute.splitTrack;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.srcCompat = global::GuideUAPP.Droid.Resource.Attribute.srcCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.stackFromEnd = global::GuideUAPP.Droid.Resource.Attribute.stackFromEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.state_above_anchor = global::GuideUAPP.Droid.Resource.Attribute.state_above_anchor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.state_collapsed = global::GuideUAPP.Droid.Resource.Attribute.state_collapsed;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.state_collapsible = global::GuideUAPP.Droid.Resource.Attribute.state_collapsible;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.statusBarBackground = global::GuideUAPP.Droid.Resource.Attribute.statusBarBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.statusBarScrim = global::GuideUAPP.Droid.Resource.Attribute.statusBarScrim;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.subMenuArrow = global::GuideUAPP.Droid.Resource.Attribute.subMenuArrow;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.submitBackground = global::GuideUAPP.Droid.Resource.Attribute.submitBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.subtitle = global::GuideUAPP.Droid.Resource.Attribute.subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.subtitleTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.subtitleTextColor = global::GuideUAPP.Droid.Resource.Attribute.subtitleTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.subtitleTextStyle = global::GuideUAPP.Droid.Resource.Attribute.subtitleTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.suggestionRowLayout = global::GuideUAPP.Droid.Resource.Attribute.suggestionRowLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.switchMinWidth = global::GuideUAPP.Droid.Resource.Attribute.switchMinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.switchPadding = global::GuideUAPP.Droid.Resource.Attribute.switchPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.switchStyle = global::GuideUAPP.Droid.Resource.Attribute.switchStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.switchTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.switchTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabBackground = global::GuideUAPP.Droid.Resource.Attribute.tabBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabContentStart = global::GuideUAPP.Droid.Resource.Attribute.tabContentStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabGravity = global::GuideUAPP.Droid.Resource.Attribute.tabGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabIndicatorColor = global::GuideUAPP.Droid.Resource.Attribute.tabIndicatorColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabIndicatorHeight = global::GuideUAPP.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabMaxWidth = global::GuideUAPP.Droid.Resource.Attribute.tabMaxWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabMinWidth = global::GuideUAPP.Droid.Resource.Attribute.tabMinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabMode = global::GuideUAPP.Droid.Resource.Attribute.tabMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabPadding = global::GuideUAPP.Droid.Resource.Attribute.tabPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabPaddingBottom = global::GuideUAPP.Droid.Resource.Attribute.tabPaddingBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabPaddingEnd = global::GuideUAPP.Droid.Resource.Attribute.tabPaddingEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabPaddingStart = global::GuideUAPP.Droid.Resource.Attribute.tabPaddingStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabPaddingTop = global::GuideUAPP.Droid.Resource.Attribute.tabPaddingTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabSelectedTextColor = global::GuideUAPP.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.tabTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tabTextColor = global::GuideUAPP.Droid.Resource.Attribute.tabTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAllCaps = global::GuideUAPP.Droid.Resource.Attribute.textAllCaps;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::GuideUAPP.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearanceListItem = global::GuideUAPP.Droid.Resource.Attribute.textAppearanceListItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSecondary = global::GuideUAPP.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearanceListItemSmall = global::GuideUAPP.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::GuideUAPP.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::GuideUAPP.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::GuideUAPP.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::GuideUAPP.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textColorAlertDialogListItem = global::GuideUAPP.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textColorError = global::GuideUAPP.Droid.Resource.Attribute.textColorError;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.textColorSearchUrl = global::GuideUAPP.Droid.Resource.Attribute.textColorSearchUrl;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.theme = global::GuideUAPP.Droid.Resource.Attribute.theme;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.thickness = global::GuideUAPP.Droid.Resource.Attribute.thickness;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.thumbTextPadding = global::GuideUAPP.Droid.Resource.Attribute.thumbTextPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.thumbTint = global::GuideUAPP.Droid.Resource.Attribute.thumbTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.thumbTintMode = global::GuideUAPP.Droid.Resource.Attribute.thumbTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tickMark = global::GuideUAPP.Droid.Resource.Attribute.tickMark;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tickMarkTint = global::GuideUAPP.Droid.Resource.Attribute.tickMarkTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tickMarkTintMode = global::GuideUAPP.Droid.Resource.Attribute.tickMarkTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tint = global::GuideUAPP.Droid.Resource.Attribute.tint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.tintMode = global::GuideUAPP.Droid.Resource.Attribute.tintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.title = global::GuideUAPP.Droid.Resource.Attribute.title;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleEnabled = global::GuideUAPP.Droid.Resource.Attribute.titleEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleMargin = global::GuideUAPP.Droid.Resource.Attribute.titleMargin;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleMarginBottom = global::GuideUAPP.Droid.Resource.Attribute.titleMarginBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleMarginEnd = global::GuideUAPP.Droid.Resource.Attribute.titleMarginEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleMarginStart = global::GuideUAPP.Droid.Resource.Attribute.titleMarginStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleMarginTop = global::GuideUAPP.Droid.Resource.Attribute.titleMarginTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleMargins = global::GuideUAPP.Droid.Resource.Attribute.titleMargins;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleTextAppearance = global::GuideUAPP.Droid.Resource.Attribute.titleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleTextColor = global::GuideUAPP.Droid.Resource.Attribute.titleTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.titleTextStyle = global::GuideUAPP.Droid.Resource.Attribute.titleTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.toolbarId = global::GuideUAPP.Droid.Resource.Attribute.toolbarId;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::GuideUAPP.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.toolbarStyle = global::GuideUAPP.Droid.Resource.Attribute.toolbarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.track = global::GuideUAPP.Droid.Resource.Attribute.track;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.trackTint = global::GuideUAPP.Droid.Resource.Attribute.trackTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.trackTintMode = global::GuideUAPP.Droid.Resource.Attribute.trackTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.useCompatPadding = global::GuideUAPP.Droid.Resource.Attribute.useCompatPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.voiceIcon = global::GuideUAPP.Droid.Resource.Attribute.voiceIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowActionBar = global::GuideUAPP.Droid.Resource.Attribute.windowActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowActionBarOverlay = global::GuideUAPP.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowActionModeOverlay = global::GuideUAPP.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowFixedHeightMajor = global::GuideUAPP.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowFixedHeightMinor = global::GuideUAPP.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowFixedWidthMajor = global::GuideUAPP.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowFixedWidthMinor = global::GuideUAPP.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowMinWidthMajor = global::GuideUAPP.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowMinWidthMinor = global::GuideUAPP.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::InTheHand.Forms.Platform.Android.Resource.Attribute.windowNoTitle = global::GuideUAPP.Droid.Resource.Attribute.windowNoTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::GuideUAPP.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::InTheHand.Forms.Platform.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::GuideUAPP.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::GuideUAPP.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::InTheHand.Forms.Platform.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::GuideUAPP.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::InTheHand.Forms.Platform.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::GuideUAPP.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::GuideUAPP.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::GuideUAPP.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::GuideUAPP.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_btn_colored_text_material = global::GuideUAPP.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_color_highlight_material = global::GuideUAPP.Droid.Resource.Color.abc_color_highlight_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_dark = global::GuideUAPP.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_hint_foreground_material_light = global::GuideUAPP.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_input_method_navigation_guard = global::GuideUAPP.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::GuideUAPP.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::GuideUAPP.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_primary_text_material_dark = global::GuideUAPP.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_primary_text_material_light = global::GuideUAPP.Droid.Resource.Color.abc_primary_text_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_search_url_text = global::GuideUAPP.Droid.Resource.Color.abc_search_url_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_search_url_text_normal = global::GuideUAPP.Droid.Resource.Color.abc_search_url_text_normal;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_search_url_text_pressed = global::GuideUAPP.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_search_url_text_selected = global::GuideUAPP.Droid.Resource.Color.abc_search_url_text_selected;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_secondary_text_material_dark = global::GuideUAPP.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_secondary_text_material_light = global::GuideUAPP.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_tint_btn_checkable = global::GuideUAPP.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_tint_default = global::GuideUAPP.Droid.Resource.Color.abc_tint_default;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_tint_edittext = global::GuideUAPP.Droid.Resource.Color.abc_tint_edittext;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_tint_seek_thumb = global::GuideUAPP.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_tint_spinner = global::GuideUAPP.Droid.Resource.Color.abc_tint_spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_tint_switch_thumb = global::GuideUAPP.Droid.Resource.Color.abc_tint_switch_thumb;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.abc_tint_switch_track = global::GuideUAPP.Droid.Resource.Color.abc_tint_switch_track;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.accent_material_dark = global::GuideUAPP.Droid.Resource.Color.accent_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.accent_material_light = global::GuideUAPP.Droid.Resource.Color.accent_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.background_floating_material_dark = global::GuideUAPP.Droid.Resource.Color.background_floating_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.background_floating_material_light = global::GuideUAPP.Droid.Resource.Color.background_floating_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.background_material_dark = global::GuideUAPP.Droid.Resource.Color.background_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.background_material_light = global::GuideUAPP.Droid.Resource.Color.background_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.bright_foreground_disabled_material_dark = global::GuideUAPP.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.bright_foreground_disabled_material_light = global::GuideUAPP.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.bright_foreground_inverse_material_dark = global::GuideUAPP.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.bright_foreground_inverse_material_light = global::GuideUAPP.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.bright_foreground_material_dark = global::GuideUAPP.Droid.Resource.Color.bright_foreground_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.bright_foreground_material_light = global::GuideUAPP.Droid.Resource.Color.bright_foreground_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.button_material_dark = global::GuideUAPP.Droid.Resource.Color.button_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.button_material_light = global::GuideUAPP.Droid.Resource.Color.button_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.cardview_dark_background = global::GuideUAPP.Droid.Resource.Color.cardview_dark_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.cardview_light_background = global::GuideUAPP.Droid.Resource.Color.cardview_light_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::GuideUAPP.Droid.Resource.Color.cardview_shadow_end_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::GuideUAPP.Droid.Resource.Color.cardview_shadow_start_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::GuideUAPP.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_error = global::GuideUAPP.Droid.Resource.Color.design_error;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_fab_shadow_end_color = global::GuideUAPP.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_fab_shadow_mid_color = global::GuideUAPP.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_fab_shadow_start_color = global::GuideUAPP.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_inner_color = global::GuideUAPP.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_fab_stroke_end_outer_color = global::GuideUAPP.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_inner_color = global::GuideUAPP.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_fab_stroke_top_outer_color = global::GuideUAPP.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_snackbar_background_color = global::GuideUAPP.Droid.Resource.Color.design_snackbar_background_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_textinput_error_color_dark = global::GuideUAPP.Droid.Resource.Color.design_textinput_error_color_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_textinput_error_color_light = global::GuideUAPP.Droid.Resource.Color.design_textinput_error_color_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.design_tint_password_toggle = global::GuideUAPP.Droid.Resource.Color.design_tint_password_toggle;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_dark = global::GuideUAPP.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.dim_foreground_disabled_material_light = global::GuideUAPP.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.dim_foreground_material_dark = global::GuideUAPP.Droid.Resource.Color.dim_foreground_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.dim_foreground_material_light = global::GuideUAPP.Droid.Resource.Color.dim_foreground_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.foreground_material_dark = global::GuideUAPP.Droid.Resource.Color.foreground_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.foreground_material_light = global::GuideUAPP.Droid.Resource.Color.foreground_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.highlighted_text_material_dark = global::GuideUAPP.Droid.Resource.Color.highlighted_text_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.highlighted_text_material_light = global::GuideUAPP.Droid.Resource.Color.highlighted_text_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_blue_grey_800 = global::GuideUAPP.Droid.Resource.Color.material_blue_grey_800;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_blue_grey_900 = global::GuideUAPP.Droid.Resource.Color.material_blue_grey_900;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_blue_grey_950 = global::GuideUAPP.Droid.Resource.Color.material_blue_grey_950;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_deep_teal_200 = global::GuideUAPP.Droid.Resource.Color.material_deep_teal_200;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_deep_teal_500 = global::GuideUAPP.Droid.Resource.Color.material_deep_teal_500;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_grey_100 = global::GuideUAPP.Droid.Resource.Color.material_grey_100;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_grey_300 = global::GuideUAPP.Droid.Resource.Color.material_grey_300;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_grey_50 = global::GuideUAPP.Droid.Resource.Color.material_grey_50;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_grey_600 = global::GuideUAPP.Droid.Resource.Color.material_grey_600;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_grey_800 = global::GuideUAPP.Droid.Resource.Color.material_grey_800;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_grey_850 = global::GuideUAPP.Droid.Resource.Color.material_grey_850;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.material_grey_900 = global::GuideUAPP.Droid.Resource.Color.material_grey_900;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.notification_action_color_filter = global::GuideUAPP.Droid.Resource.Color.notification_action_color_filter;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.notification_icon_bg_color = global::GuideUAPP.Droid.Resource.Color.notification_icon_bg_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.notification_material_background_media_default_color = global::GuideUAPP.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_dark_material_dark = global::GuideUAPP.Droid.Resource.Color.primary_dark_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_dark_material_light = global::GuideUAPP.Droid.Resource.Color.primary_dark_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_material_dark = global::GuideUAPP.Droid.Resource.Color.primary_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_material_light = global::GuideUAPP.Droid.Resource.Color.primary_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_text_default_material_dark = global::GuideUAPP.Droid.Resource.Color.primary_text_default_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::GuideUAPP.Droid.Resource.Color.primary_text_default_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::GuideUAPP.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::GuideUAPP.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::GuideUAPP.Droid.Resource.Color.ripple_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.ripple_material_light = global::GuideUAPP.Droid.Resource.Color.ripple_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::GuideUAPP.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.secondary_text_default_material_light = global::GuideUAPP.Droid.Resource.Color.secondary_text_default_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.secondary_text_disabled_material_dark = global::GuideUAPP.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.secondary_text_disabled_material_light = global::GuideUAPP.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.switch_thumb_disabled_material_dark = global::GuideUAPP.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.switch_thumb_disabled_material_light = global::GuideUAPP.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.switch_thumb_material_dark = global::GuideUAPP.Droid.Resource.Color.switch_thumb_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::GuideUAPP.Droid.Resource.Color.switch_thumb_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::GuideUAPP.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::GuideUAPP.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_height_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_elevation_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_height_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_width_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::GuideUAPP.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::GuideUAPP.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::GuideUAPP.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_button_inset_vertical_material = global::GuideUAPP.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::GuideUAPP.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_button_padding_vertical_material = global::GuideUAPP.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::GuideUAPP.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_config_prefDialogWidth = global::GuideUAPP.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_control_corner_material = global::GuideUAPP.Droid.Resource.Dimension.abc_control_corner_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_control_inset_material = global::GuideUAPP.Droid.Resource.Dimension.abc_control_inset_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_control_padding_material = global::GuideUAPP.Droid.Resource.Dimension.abc_control_padding_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_min_width_major = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_min_width_minor = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_padding_material = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_padding_top_material = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dialog_title_divider_material = global::GuideUAPP.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::GuideUAPP.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::GuideUAPP.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::GuideUAPP.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::GuideUAPP.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::GuideUAPP.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::GuideUAPP.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::GuideUAPP.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::GuideUAPP.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_floating_window_z = global::GuideUAPP.Droid.Resource.Dimension.abc_floating_window_z;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::GuideUAPP.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_panel_menu_list_width = global::GuideUAPP.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_progress_bar_height_material = global::GuideUAPP.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_search_view_preferred_height = global::GuideUAPP.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_search_view_preferred_width = global::GuideUAPP.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::GuideUAPP.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::GuideUAPP.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::GuideUAPP.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_switch_padding = global::GuideUAPP.Droid.Resource.Dimension.abc_switch_padding;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_body_1_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_body_2_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_button_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_caption_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_1_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_2_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_3_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_display_4_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_headline_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_large_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_medium_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_menu_header_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_menu_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_small_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_subhead_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::GuideUAPP.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::GuideUAPP.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::GuideUAPP.Droid.Resource.Dimension.cardview_default_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.cardview_default_radius = global::GuideUAPP.Droid.Resource.Dimension.cardview_default_radius;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::GuideUAPP.Droid.Resource.Dimension.design_appbar_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_elevation = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_height = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_margin = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_text_size = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::GuideUAPP.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_fab_border_width = global::GuideUAPP.Droid.Resource.Dimension.design_fab_border_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_fab_elevation = global::GuideUAPP.Droid.Resource.Dimension.design_fab_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_fab_image_size = global::GuideUAPP.Droid.Resource.Dimension.design_fab_image_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_fab_size_mini = global::GuideUAPP.Droid.Resource.Dimension.design_fab_size_mini;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_fab_size_normal = global::GuideUAPP.Droid.Resource.Dimension.design_fab_size_normal;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_fab_translation_z_pressed = global::GuideUAPP.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_navigation_elevation = global::GuideUAPP.Droid.Resource.Dimension.design_navigation_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_navigation_icon_padding = global::GuideUAPP.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_navigation_icon_size = global::GuideUAPP.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_navigation_max_width = global::GuideUAPP.Droid.Resource.Dimension.design_navigation_max_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_navigation_padding_bottom = global::GuideUAPP.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::GuideUAPP.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_elevation = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_max_width = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_min_width = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_snackbar_text_size = global::GuideUAPP.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_tab_max_width = global::GuideUAPP.Droid.Resource.Dimension.design_tab_max_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_tab_scrollable_min_width = global::GuideUAPP.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_tab_text_size = global::GuideUAPP.Droid.Resource.Dimension.design_tab_text_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.design_tab_text_size_2line = global::GuideUAPP.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_dark = global::GuideUAPP.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.disabled_alpha_material_light = global::GuideUAPP.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_colored = global::GuideUAPP.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_dark = global::GuideUAPP.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.highlight_alpha_material_light = global::GuideUAPP.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.hint_alpha_material_dark = global::GuideUAPP.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.hint_alpha_material_light = global::GuideUAPP.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::GuideUAPP.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::GuideUAPP.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::GuideUAPP.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::GuideUAPP.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::GuideUAPP.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::GuideUAPP.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::GuideUAPP.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::GuideUAPP.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::GuideUAPP.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::GuideUAPP.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::GuideUAPP.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_action_icon_size = global::GuideUAPP.Droid.Resource.Dimension.notification_action_icon_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_action_text_size = global::GuideUAPP.Droid.Resource.Dimension.notification_action_text_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_big_circle_margin = global::GuideUAPP.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_content_margin_start = global::GuideUAPP.Droid.Resource.Dimension.notification_content_margin_start;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_large_icon_height = global::GuideUAPP.Droid.Resource.Dimension.notification_large_icon_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_large_icon_width = global::GuideUAPP.Droid.Resource.Dimension.notification_large_icon_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_main_column_padding_top = global::GuideUAPP.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_media_narrow_margin = global::GuideUAPP.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_right_icon_size = global::GuideUAPP.Droid.Resource.Dimension.notification_right_icon_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_right_side_padding_top = global::GuideUAPP.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_small_icon_background_padding = global::GuideUAPP.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_small_icon_size_as_large = global::GuideUAPP.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::GuideUAPP.Droid.Resource.Dimension.notification_subtext_size;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::GuideUAPP.Droid.Resource.Dimension.notification_top_pad;
+			global::InTheHand.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::GuideUAPP.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_action_bar_item_background_material = global::GuideUAPP.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_borderless_material = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_check_material = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_check_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_colored_material = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_material = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::GuideUAPP.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_cab_background_internal_bg = global::GuideUAPP.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_cab_background_top_material = global::GuideUAPP.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_control_background_material = global::GuideUAPP.Droid.Resource.Drawable.abc_control_background_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_dialog_material_background = global::GuideUAPP.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_edit_text_material = global::GuideUAPP.Droid.Resource.Drawable.abc_edit_text_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_ab_back_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_clear_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_go_search_api_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_search_api_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_16dp = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_36dp = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_star_black_48dp = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_item_background_holo_light = global::GuideUAPP.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_focused_holo = global::GuideUAPP.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_longpressed_holo = global::GuideUAPP.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_pressed_holo_light = global::GuideUAPP.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::GuideUAPP.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::GuideUAPP.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_selector_holo_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_list_selector_holo_light = global::GuideUAPP.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::GuideUAPP.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::GuideUAPP.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_ratingbar_small_material = global::GuideUAPP.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::GuideUAPP.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::GuideUAPP.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_seekbar_thumb_material = global::GuideUAPP.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::GuideUAPP.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_seekbar_track_material = global::GuideUAPP.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::GuideUAPP.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_switch_thumb_material = global::GuideUAPP.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_tab_indicator_material = global::GuideUAPP.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_text_cursor_material = global::GuideUAPP.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::GuideUAPP.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::GuideUAPP.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::GuideUAPP.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::GuideUAPP.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::GuideUAPP.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_textfield_search_material = global::GuideUAPP.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.abc_vector_test = global::GuideUAPP.Droid.Resource.Drawable.abc_vector_test;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_hide_password = global::GuideUAPP.Droid.Resource.Drawable.avd_hide_password;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_hide_password_1 = global::GuideUAPP.Droid.Resource.Drawable.avd_hide_password_1;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_hide_password_2 = global::GuideUAPP.Droid.Resource.Drawable.avd_hide_password_2;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_hide_password_3 = global::GuideUAPP.Droid.Resource.Drawable.avd_hide_password_3;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_show_password = global::GuideUAPP.Droid.Resource.Drawable.avd_show_password;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_show_password_1 = global::GuideUAPP.Droid.Resource.Drawable.avd_show_password_1;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_show_password_2 = global::GuideUAPP.Droid.Resource.Drawable.avd_show_password_2;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.avd_show_password_3 = global::GuideUAPP.Droid.Resource.Drawable.avd_show_password_3;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.design_bottom_navigation_item_background = global::GuideUAPP.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.design_fab_background = global::GuideUAPP.Droid.Resource.Drawable.design_fab_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.design_ic_visibility = global::GuideUAPP.Droid.Resource.Drawable.design_ic_visibility;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.design_ic_visibility_off = global::GuideUAPP.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.design_password_eye = global::GuideUAPP.Droid.Resource.Drawable.design_password_eye;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.design_snackbar_background = global::GuideUAPP.Droid.Resource.Drawable.design_snackbar_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_audiotrack_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_audiotrack_light = global::GuideUAPP.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_dialog_close_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_dialog_close_light = global::GuideUAPP.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_00 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_01 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_02 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_03 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_04 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_05 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_06 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_07 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_08 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_09 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_10 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_11 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_12 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_13 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_14 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_collapse_15 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_00 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_00;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_01 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_01;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_02 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_02;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_03 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_03;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_04 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_04;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_05 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_05;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_06 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_06;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_07 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_07;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_08 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_08;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_09 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_09;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_10 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_10;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_11 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_11;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_12 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_12;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_13 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_13;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_14 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_14;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_group_expand_15 = global::GuideUAPP.Droid.Resource.Drawable.ic_group_expand_15;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_media_pause_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_media_pause_light = global::GuideUAPP.Droid.Resource.Drawable.ic_media_pause_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_media_play_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_media_play_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_media_play_light = global::GuideUAPP.Droid.Resource.Drawable.ic_media_play_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_media_stop_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_media_stop_light = global::GuideUAPP.Droid.Resource.Drawable.ic_media_stop_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_disabled_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_mr_button_grey = global::GuideUAPP.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::GuideUAPP.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_vol_type_speaker_light = global::GuideUAPP.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_vol_type_tv_dark = global::GuideUAPP.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.ic_vol_type_tv_light = global::GuideUAPP.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_button_connected_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_button_connected_light = global::GuideUAPP.Droid.Resource.Drawable.mr_button_connected_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_button_connecting_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_button_connecting_light = global::GuideUAPP.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_button_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_button_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_button_light = global::GuideUAPP.Droid.Resource.Drawable.mr_button_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_dialog_close_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_dialog_close_light = global::GuideUAPP.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_dialog_material_background_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_dialog_material_background_light = global::GuideUAPP.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_group_collapse = global::GuideUAPP.Droid.Resource.Drawable.mr_group_collapse;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_group_expand = global::GuideUAPP.Droid.Resource.Drawable.mr_group_expand;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_media_pause_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_media_pause_light = global::GuideUAPP.Droid.Resource.Drawable.mr_media_pause_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_media_play_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_media_play_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_media_play_light = global::GuideUAPP.Droid.Resource.Drawable.mr_media_play_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_media_stop_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_media_stop_light = global::GuideUAPP.Droid.Resource.Drawable.mr_media_stop_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::GuideUAPP.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::GuideUAPP.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::GuideUAPP.Droid.Resource.Drawable.navigation_empty_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::GuideUAPP.Droid.Resource.Drawable.notification_action_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_bg = global::GuideUAPP.Droid.Resource.Drawable.notification_bg;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_bg_low = global::GuideUAPP.Droid.Resource.Drawable.notification_bg_low;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_bg_low_normal = global::GuideUAPP.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_bg_low_pressed = global::GuideUAPP.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_bg_normal = global::GuideUAPP.Droid.Resource.Drawable.notification_bg_normal;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_bg_normal_pressed = global::GuideUAPP.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_icon_background = global::GuideUAPP.Droid.Resource.Drawable.notification_icon_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_template_icon_bg = global::GuideUAPP.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::GuideUAPP.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::GuideUAPP.Droid.Resource.Drawable.notification_tile_bg;
+			global::InTheHand.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::GuideUAPP.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action0 = global::GuideUAPP.Droid.Resource.Id.action0;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_bar = global::GuideUAPP.Droid.Resource.Id.action_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_bar_activity_content = global::GuideUAPP.Droid.Resource.Id.action_bar_activity_content;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_bar_container = global::GuideUAPP.Droid.Resource.Id.action_bar_container;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_bar_root = global::GuideUAPP.Droid.Resource.Id.action_bar_root;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_bar_spinner = global::GuideUAPP.Droid.Resource.Id.action_bar_spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_bar_subtitle = global::GuideUAPP.Droid.Resource.Id.action_bar_subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_bar_title = global::GuideUAPP.Droid.Resource.Id.action_bar_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_container = global::GuideUAPP.Droid.Resource.Id.action_container;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_context_bar = global::GuideUAPP.Droid.Resource.Id.action_context_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_divider = global::GuideUAPP.Droid.Resource.Id.action_divider;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_image = global::GuideUAPP.Droid.Resource.Id.action_image;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_menu_divider = global::GuideUAPP.Droid.Resource.Id.action_menu_divider;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_menu_presenter = global::GuideUAPP.Droid.Resource.Id.action_menu_presenter;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_mode_bar = global::GuideUAPP.Droid.Resource.Id.action_mode_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_mode_bar_stub = global::GuideUAPP.Droid.Resource.Id.action_mode_bar_stub;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_mode_close_button = global::GuideUAPP.Droid.Resource.Id.action_mode_close_button;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.action_text = global::GuideUAPP.Droid.Resource.Id.action_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.actions = global::GuideUAPP.Droid.Resource.Id.actions;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.activity_chooser_view_content = global::GuideUAPP.Droid.Resource.Id.activity_chooser_view_content;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.add = global::GuideUAPP.Droid.Resource.Id.add;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.alertTitle = global::GuideUAPP.Droid.Resource.Id.alertTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.all = global::GuideUAPP.Droid.Resource.Id.all;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.always = global::GuideUAPP.Droid.Resource.Id.always;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.auto = global::GuideUAPP.Droid.Resource.Id.auto;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.beginning = global::GuideUAPP.Droid.Resource.Id.beginning;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.bottom = global::GuideUAPP.Droid.Resource.Id.bottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.buttonPanel = global::GuideUAPP.Droid.Resource.Id.buttonPanel;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.cancel_action = global::GuideUAPP.Droid.Resource.Id.cancel_action;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.center = global::GuideUAPP.Droid.Resource.Id.center;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.center_horizontal = global::GuideUAPP.Droid.Resource.Id.center_horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.center_vertical = global::GuideUAPP.Droid.Resource.Id.center_vertical;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.checkbox = global::GuideUAPP.Droid.Resource.Id.checkbox;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.chronometer = global::GuideUAPP.Droid.Resource.Id.chronometer;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.clip_horizontal = global::GuideUAPP.Droid.Resource.Id.clip_horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.clip_vertical = global::GuideUAPP.Droid.Resource.Id.clip_vertical;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.collapseActionView = global::GuideUAPP.Droid.Resource.Id.collapseActionView;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.container = global::GuideUAPP.Droid.Resource.Id.container;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.contentPanel = global::GuideUAPP.Droid.Resource.Id.contentPanel;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.coordinator = global::GuideUAPP.Droid.Resource.Id.coordinator;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.custom = global::GuideUAPP.Droid.Resource.Id.custom;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.customPanel = global::GuideUAPP.Droid.Resource.Id.customPanel;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.decor_content_parent = global::GuideUAPP.Droid.Resource.Id.decor_content_parent;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.default_activity_button = global::GuideUAPP.Droid.Resource.Id.default_activity_button;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.design_bottom_sheet = global::GuideUAPP.Droid.Resource.Id.design_bottom_sheet;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.design_menu_item_action_area = global::GuideUAPP.Droid.Resource.Id.design_menu_item_action_area;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.design_menu_item_action_area_stub = global::GuideUAPP.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.design_menu_item_text = global::GuideUAPP.Droid.Resource.Id.design_menu_item_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.design_navigation_view = global::GuideUAPP.Droid.Resource.Id.design_navigation_view;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.disableHome = global::GuideUAPP.Droid.Resource.Id.disableHome;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.edit_query = global::GuideUAPP.Droid.Resource.Id.edit_query;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.end = global::GuideUAPP.Droid.Resource.Id.end;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.end_padder = global::GuideUAPP.Droid.Resource.Id.end_padder;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.enterAlways = global::GuideUAPP.Droid.Resource.Id.enterAlways;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.enterAlwaysCollapsed = global::GuideUAPP.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.exitUntilCollapsed = global::GuideUAPP.Droid.Resource.Id.exitUntilCollapsed;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.expand_activities_button = global::GuideUAPP.Droid.Resource.Id.expand_activities_button;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.expanded_menu = global::GuideUAPP.Droid.Resource.Id.expanded_menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.fill = global::GuideUAPP.Droid.Resource.Id.fill;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.fill_horizontal = global::GuideUAPP.Droid.Resource.Id.fill_horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.fill_vertical = global::GuideUAPP.Droid.Resource.Id.fill_vertical;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.@fixed = global::GuideUAPP.Droid.Resource.Id.@fixed;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.home = global::GuideUAPP.Droid.Resource.Id.home;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.homeAsUp = global::GuideUAPP.Droid.Resource.Id.homeAsUp;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.icon = global::GuideUAPP.Droid.Resource.Id.icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.icon_group = global::GuideUAPP.Droid.Resource.Id.icon_group;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.ifRoom = global::GuideUAPP.Droid.Resource.Id.ifRoom;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.image = global::GuideUAPP.Droid.Resource.Id.image;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.info = global::GuideUAPP.Droid.Resource.Id.info;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.item_touch_helper_previous_elevation = global::GuideUAPP.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.largeLabel = global::GuideUAPP.Droid.Resource.Id.largeLabel;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.left = global::GuideUAPP.Droid.Resource.Id.left;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.line1 = global::GuideUAPP.Droid.Resource.Id.line1;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.line3 = global::GuideUAPP.Droid.Resource.Id.line3;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.listMode = global::GuideUAPP.Droid.Resource.Id.listMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.list_item = global::GuideUAPP.Droid.Resource.Id.list_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.masked = global::GuideUAPP.Droid.Resource.Id.masked;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.media_actions = global::GuideUAPP.Droid.Resource.Id.media_actions;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.middle = global::GuideUAPP.Droid.Resource.Id.middle;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mini = global::GuideUAPP.Droid.Resource.Id.mini;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_art = global::GuideUAPP.Droid.Resource.Id.mr_art;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_chooser_list = global::GuideUAPP.Droid.Resource.Id.mr_chooser_list;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_chooser_route_desc = global::GuideUAPP.Droid.Resource.Id.mr_chooser_route_desc;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_chooser_route_icon = global::GuideUAPP.Droid.Resource.Id.mr_chooser_route_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_chooser_route_name = global::GuideUAPP.Droid.Resource.Id.mr_chooser_route_name;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_chooser_title = global::GuideUAPP.Droid.Resource.Id.mr_chooser_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_close = global::GuideUAPP.Droid.Resource.Id.mr_close;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_control_divider = global::GuideUAPP.Droid.Resource.Id.mr_control_divider;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_control_playback_ctrl = global::GuideUAPP.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_control_subtitle = global::GuideUAPP.Droid.Resource.Id.mr_control_subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_control_title = global::GuideUAPP.Droid.Resource.Id.mr_control_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_control_title_container = global::GuideUAPP.Droid.Resource.Id.mr_control_title_container;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_custom_control = global::GuideUAPP.Droid.Resource.Id.mr_custom_control;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_default_control = global::GuideUAPP.Droid.Resource.Id.mr_default_control;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_dialog_area = global::GuideUAPP.Droid.Resource.Id.mr_dialog_area;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_expandable_area = global::GuideUAPP.Droid.Resource.Id.mr_expandable_area;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_group_expand_collapse = global::GuideUAPP.Droid.Resource.Id.mr_group_expand_collapse;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_media_main_control = global::GuideUAPP.Droid.Resource.Id.mr_media_main_control;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_name = global::GuideUAPP.Droid.Resource.Id.mr_name;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_playback_control = global::GuideUAPP.Droid.Resource.Id.mr_playback_control;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_title_bar = global::GuideUAPP.Droid.Resource.Id.mr_title_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_volume_control = global::GuideUAPP.Droid.Resource.Id.mr_volume_control;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_volume_group_list = global::GuideUAPP.Droid.Resource.Id.mr_volume_group_list;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_volume_item_icon = global::GuideUAPP.Droid.Resource.Id.mr_volume_item_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.mr_volume_slider = global::GuideUAPP.Droid.Resource.Id.mr_volume_slider;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.multiply = global::GuideUAPP.Droid.Resource.Id.multiply;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.navigation_header_container = global::GuideUAPP.Droid.Resource.Id.navigation_header_container;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.never = global::GuideUAPP.Droid.Resource.Id.never;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.none = global::GuideUAPP.Droid.Resource.Id.none;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.normal = global::GuideUAPP.Droid.Resource.Id.normal;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.notification_background = global::GuideUAPP.Droid.Resource.Id.notification_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.notification_main_column = global::GuideUAPP.Droid.Resource.Id.notification_main_column;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.notification_main_column_container = global::GuideUAPP.Droid.Resource.Id.notification_main_column_container;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.parallax = global::GuideUAPP.Droid.Resource.Id.parallax;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.parentPanel = global::GuideUAPP.Droid.Resource.Id.parentPanel;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.pin = global::GuideUAPP.Droid.Resource.Id.pin;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.progress_circular = global::GuideUAPP.Droid.Resource.Id.progress_circular;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.progress_horizontal = global::GuideUAPP.Droid.Resource.Id.progress_horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.radio = global::GuideUAPP.Droid.Resource.Id.radio;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.right = global::GuideUAPP.Droid.Resource.Id.right;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.right_icon = global::GuideUAPP.Droid.Resource.Id.right_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.right_side = global::GuideUAPP.Droid.Resource.Id.right_side;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.screen = global::GuideUAPP.Droid.Resource.Id.screen;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.scroll = global::GuideUAPP.Droid.Resource.Id.scroll;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.scrollIndicatorDown = global::GuideUAPP.Droid.Resource.Id.scrollIndicatorDown;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.scrollIndicatorUp = global::GuideUAPP.Droid.Resource.Id.scrollIndicatorUp;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.scrollView = global::GuideUAPP.Droid.Resource.Id.scrollView;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.scrollable = global::GuideUAPP.Droid.Resource.Id.scrollable;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_badge = global::GuideUAPP.Droid.Resource.Id.search_badge;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_bar = global::GuideUAPP.Droid.Resource.Id.search_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_button = global::GuideUAPP.Droid.Resource.Id.search_button;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_close_btn = global::GuideUAPP.Droid.Resource.Id.search_close_btn;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_edit_frame = global::GuideUAPP.Droid.Resource.Id.search_edit_frame;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_go_btn = global::GuideUAPP.Droid.Resource.Id.search_go_btn;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_mag_icon = global::GuideUAPP.Droid.Resource.Id.search_mag_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_plate = global::GuideUAPP.Droid.Resource.Id.search_plate;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_src_text = global::GuideUAPP.Droid.Resource.Id.search_src_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.search_voice_btn = global::GuideUAPP.Droid.Resource.Id.search_voice_btn;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.select_dialog_listview = global::GuideUAPP.Droid.Resource.Id.select_dialog_listview;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.shortcut = global::GuideUAPP.Droid.Resource.Id.shortcut;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.showCustom = global::GuideUAPP.Droid.Resource.Id.showCustom;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.showHome = global::GuideUAPP.Droid.Resource.Id.showHome;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.showTitle = global::GuideUAPP.Droid.Resource.Id.showTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.smallLabel = global::GuideUAPP.Droid.Resource.Id.smallLabel;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.snackbar_action = global::GuideUAPP.Droid.Resource.Id.snackbar_action;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.snackbar_text = global::GuideUAPP.Droid.Resource.Id.snackbar_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.snap = global::GuideUAPP.Droid.Resource.Id.snap;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.spacer = global::GuideUAPP.Droid.Resource.Id.spacer;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.split_action_bar = global::GuideUAPP.Droid.Resource.Id.split_action_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.src_atop = global::GuideUAPP.Droid.Resource.Id.src_atop;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.src_in = global::GuideUAPP.Droid.Resource.Id.src_in;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.src_over = global::GuideUAPP.Droid.Resource.Id.src_over;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.start = global::GuideUAPP.Droid.Resource.Id.start;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.status_bar_latest_event_content = global::GuideUAPP.Droid.Resource.Id.status_bar_latest_event_content;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.submenuarrow = global::GuideUAPP.Droid.Resource.Id.submenuarrow;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.submit_area = global::GuideUAPP.Droid.Resource.Id.submit_area;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.tabMode = global::GuideUAPP.Droid.Resource.Id.tabMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.text = global::GuideUAPP.Droid.Resource.Id.text;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.text2 = global::GuideUAPP.Droid.Resource.Id.text2;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.textSpacerNoButtons = global::GuideUAPP.Droid.Resource.Id.textSpacerNoButtons;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.textSpacerNoTitle = global::GuideUAPP.Droid.Resource.Id.textSpacerNoTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.text_input_password_toggle = global::GuideUAPP.Droid.Resource.Id.text_input_password_toggle;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.textinput_counter = global::GuideUAPP.Droid.Resource.Id.textinput_counter;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.textinput_error = global::GuideUAPP.Droid.Resource.Id.textinput_error;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.time = global::GuideUAPP.Droid.Resource.Id.time;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.title = global::GuideUAPP.Droid.Resource.Id.title;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.titleDividerNoCustom = global::GuideUAPP.Droid.Resource.Id.titleDividerNoCustom;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.title_template = global::GuideUAPP.Droid.Resource.Id.title_template;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.top = global::GuideUAPP.Droid.Resource.Id.top;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.topPanel = global::GuideUAPP.Droid.Resource.Id.topPanel;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.touch_outside = global::GuideUAPP.Droid.Resource.Id.touch_outside;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.transition_current_scene = global::GuideUAPP.Droid.Resource.Id.transition_current_scene;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.transition_scene_layoutid_cache = global::GuideUAPP.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.up = global::GuideUAPP.Droid.Resource.Id.up;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.useLogo = global::GuideUAPP.Droid.Resource.Id.useLogo;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.view_offset_helper = global::GuideUAPP.Droid.Resource.Id.view_offset_helper;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.visible = global::GuideUAPP.Droid.Resource.Id.visible;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.volume_item_container = global::GuideUAPP.Droid.Resource.Id.volume_item_container;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.withText = global::GuideUAPP.Droid.Resource.Id.withText;
+			global::InTheHand.Forms.Platform.Android.Resource.Id.wrap_content = global::GuideUAPP.Droid.Resource.Id.wrap_content;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::GuideUAPP.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::GuideUAPP.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::GuideUAPP.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.bottom_sheet_slide_duration = global::GuideUAPP.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.cancel_button_image_alpha = global::GuideUAPP.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.design_snackbar_text_max_lines = global::GuideUAPP.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.hide_password_duration = global::GuideUAPP.Droid.Resource.Integer.hide_password_duration;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::GuideUAPP.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::GuideUAPP.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::GuideUAPP.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.show_password_duration = global::GuideUAPP.Droid.Resource.Integer.show_password_duration;
+			global::InTheHand.Forms.Platform.Android.Resource.Integer.status_bar_notification_info_maxnum = global::GuideUAPP.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::InTheHand.Forms.Platform.Android.Resource.Interpolator.mr_fast_out_slow_in = global::GuideUAPP.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::InTheHand.Forms.Platform.Android.Resource.Interpolator.mr_linear_out_slow_in = global::GuideUAPP.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_action_bar_title_item = global::GuideUAPP.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_action_bar_up_container = global::GuideUAPP.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::GuideUAPP.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_action_menu_item_layout = global::GuideUAPP.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_action_menu_layout = global::GuideUAPP.Droid.Resource.Layout.abc_action_menu_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_action_mode_bar = global::GuideUAPP.Droid.Resource.Layout.abc_action_mode_bar;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_action_mode_close_item_material = global::GuideUAPP.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_activity_chooser_view = global::GuideUAPP.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::GuideUAPP.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::GuideUAPP.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_material = global::GuideUAPP.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_alert_dialog_title_material = global::GuideUAPP.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_dialog_title_material = global::GuideUAPP.Droid.Resource.Layout.abc_dialog_title_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_expanded_menu_layout = global::GuideUAPP.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_checkbox = global::GuideUAPP.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_icon = global::GuideUAPP.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_layout = global::GuideUAPP.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_list_menu_item_radio = global::GuideUAPP.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::GuideUAPP.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_popup_menu_item_layout = global::GuideUAPP.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_screen_content_include = global::GuideUAPP.Droid.Resource.Layout.abc_screen_content_include;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_screen_simple = global::GuideUAPP.Droid.Resource.Layout.abc_screen_simple;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::GuideUAPP.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_screen_toolbar = global::GuideUAPP.Droid.Resource.Layout.abc_screen_toolbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::GuideUAPP.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_search_view = global::GuideUAPP.Droid.Resource.Layout.abc_search_view;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.abc_select_dialog_material = global::GuideUAPP.Droid.Resource.Layout.abc_select_dialog_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_bottom_navigation_item = global::GuideUAPP.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_bottom_sheet_dialog = global::GuideUAPP.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_layout_snackbar = global::GuideUAPP.Droid.Resource.Layout.design_layout_snackbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_layout_snackbar_include = global::GuideUAPP.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_layout_tab_icon = global::GuideUAPP.Droid.Resource.Layout.design_layout_tab_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_layout_tab_text = global::GuideUAPP.Droid.Resource.Layout.design_layout_tab_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_menu_item_action_area = global::GuideUAPP.Droid.Resource.Layout.design_menu_item_action_area;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_navigation_item = global::GuideUAPP.Droid.Resource.Layout.design_navigation_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_navigation_item_header = global::GuideUAPP.Droid.Resource.Layout.design_navigation_item_header;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_navigation_item_separator = global::GuideUAPP.Droid.Resource.Layout.design_navigation_item_separator;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_navigation_item_subheader = global::GuideUAPP.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_navigation_menu = global::GuideUAPP.Droid.Resource.Layout.design_navigation_menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_navigation_menu_item = global::GuideUAPP.Droid.Resource.Layout.design_navigation_menu_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.design_text_input_password_icon = global::GuideUAPP.Droid.Resource.Layout.design_text_input_password_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.mr_chooser_dialog = global::GuideUAPP.Droid.Resource.Layout.mr_chooser_dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.mr_chooser_list_item = global::GuideUAPP.Droid.Resource.Layout.mr_chooser_list_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.mr_controller_material_dialog_b = global::GuideUAPP.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.mr_controller_volume_item = global::GuideUAPP.Droid.Resource.Layout.mr_controller_volume_item;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.mr_playback_control = global::GuideUAPP.Droid.Resource.Layout.mr_playback_control;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.mr_volume_control = global::GuideUAPP.Droid.Resource.Layout.mr_volume_control;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_action = global::GuideUAPP.Droid.Resource.Layout.notification_action;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_action_tombstone = global::GuideUAPP.Droid.Resource.Layout.notification_action_tombstone;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_media_action = global::GuideUAPP.Droid.Resource.Layout.notification_media_action;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_media_cancel_action = global::GuideUAPP.Droid.Resource.Layout.notification_media_cancel_action;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_big_media = global::GuideUAPP.Droid.Resource.Layout.notification_template_big_media;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_big_media_custom = global::GuideUAPP.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_big_media_narrow = global::GuideUAPP.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::GuideUAPP.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_custom_big = global::GuideUAPP.Droid.Resource.Layout.notification_template_custom_big;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_icon_group = global::GuideUAPP.Droid.Resource.Layout.notification_template_icon_group;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_lines_media = global::GuideUAPP.Droid.Resource.Layout.notification_template_lines_media;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_media = global::GuideUAPP.Droid.Resource.Layout.notification_template_media;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_media_custom = global::GuideUAPP.Droid.Resource.Layout.notification_template_media_custom;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_part_chronometer = global::GuideUAPP.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.notification_template_part_time = global::GuideUAPP.Droid.Resource.Layout.notification_template_part_time;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.select_dialog_item_material = global::GuideUAPP.Droid.Resource.Layout.select_dialog_item_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.select_dialog_multichoice_material = global::GuideUAPP.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.select_dialog_singlechoice_material = global::GuideUAPP.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::InTheHand.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::GuideUAPP.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::InTheHand.Forms.Platform.Android.Resource.String.ApplicationName = global::GuideUAPP.Droid.Resource.String.ApplicationName;
+			global::InTheHand.Forms.Platform.Android.Resource.String.Hello = global::GuideUAPP.Droid.Resource.String.Hello;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::GuideUAPP.Droid.Resource.String.abc_action_bar_home_description;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_action_bar_home_description_format = global::GuideUAPP.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::GuideUAPP.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_action_bar_up_description = global::GuideUAPP.Droid.Resource.String.abc_action_bar_up_description;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_action_menu_overflow_description = global::GuideUAPP.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_action_mode_done = global::GuideUAPP.Droid.Resource.String.abc_action_mode_done;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_activity_chooser_view_see_all = global::GuideUAPP.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_activitychooserview_choose_application = global::GuideUAPP.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_capital_off = global::GuideUAPP.Droid.Resource.String.abc_capital_off;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_capital_on = global::GuideUAPP.Droid.Resource.String.abc_capital_on;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_body_1_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_body_1_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_body_2_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_body_2_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_button_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_button_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_caption_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_caption_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_display_1_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_display_1_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_display_2_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_display_2_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_display_3_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_display_3_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_display_4_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_display_4_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_headline_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_headline_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_menu_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_menu_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_subhead_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_subhead_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_font_family_title_material = global::GuideUAPP.Droid.Resource.String.abc_font_family_title_material;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_search_hint = global::GuideUAPP.Droid.Resource.String.abc_search_hint;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_searchview_description_clear = global::GuideUAPP.Droid.Resource.String.abc_searchview_description_clear;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_searchview_description_query = global::GuideUAPP.Droid.Resource.String.abc_searchview_description_query;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_searchview_description_search = global::GuideUAPP.Droid.Resource.String.abc_searchview_description_search;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_searchview_description_submit = global::GuideUAPP.Droid.Resource.String.abc_searchview_description_submit;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_searchview_description_voice = global::GuideUAPP.Droid.Resource.String.abc_searchview_description_voice;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::GuideUAPP.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::GuideUAPP.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::InTheHand.Forms.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::GuideUAPP.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::InTheHand.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::GuideUAPP.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::InTheHand.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::GuideUAPP.Droid.Resource.String.bottom_sheet_behavior;
+			global::InTheHand.Forms.Platform.Android.Resource.String.character_counter_pattern = global::GuideUAPP.Droid.Resource.String.character_counter_pattern;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_button_content_description = global::GuideUAPP.Droid.Resource.String.mr_button_content_description;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_cast_button_connected = global::GuideUAPP.Droid.Resource.String.mr_cast_button_connected;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_cast_button_connecting = global::GuideUAPP.Droid.Resource.String.mr_cast_button_connecting;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_cast_button_disconnected = global::GuideUAPP.Droid.Resource.String.mr_cast_button_disconnected;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_chooser_searching = global::GuideUAPP.Droid.Resource.String.mr_chooser_searching;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_chooser_title = global::GuideUAPP.Droid.Resource.String.mr_chooser_title;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_album_art = global::GuideUAPP.Droid.Resource.String.mr_controller_album_art;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_casting_screen = global::GuideUAPP.Droid.Resource.String.mr_controller_casting_screen;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_close_description = global::GuideUAPP.Droid.Resource.String.mr_controller_close_description;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_collapse_group = global::GuideUAPP.Droid.Resource.String.mr_controller_collapse_group;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_disconnect = global::GuideUAPP.Droid.Resource.String.mr_controller_disconnect;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_expand_group = global::GuideUAPP.Droid.Resource.String.mr_controller_expand_group;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_no_info_available = global::GuideUAPP.Droid.Resource.String.mr_controller_no_info_available;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_no_media_selected = global::GuideUAPP.Droid.Resource.String.mr_controller_no_media_selected;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_pause = global::GuideUAPP.Droid.Resource.String.mr_controller_pause;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_play = global::GuideUAPP.Droid.Resource.String.mr_controller_play;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_stop = global::GuideUAPP.Droid.Resource.String.mr_controller_stop;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_stop_casting = global::GuideUAPP.Droid.Resource.String.mr_controller_stop_casting;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_controller_volume_slider = global::GuideUAPP.Droid.Resource.String.mr_controller_volume_slider;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_system_route_name = global::GuideUAPP.Droid.Resource.String.mr_system_route_name;
+			global::InTheHand.Forms.Platform.Android.Resource.String.mr_user_route_category_name = global::GuideUAPP.Droid.Resource.String.mr_user_route_category_name;
+			global::InTheHand.Forms.Platform.Android.Resource.String.password_toggle_content_description = global::GuideUAPP.Droid.Resource.String.password_toggle_content_description;
+			global::InTheHand.Forms.Platform.Android.Resource.String.path_password_eye = global::GuideUAPP.Droid.Resource.String.path_password_eye;
+			global::InTheHand.Forms.Platform.Android.Resource.String.path_password_eye_mask_strike_through = global::GuideUAPP.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::InTheHand.Forms.Platform.Android.Resource.String.path_password_eye_mask_visible = global::GuideUAPP.Droid.Resource.String.path_password_eye_mask_visible;
+			global::InTheHand.Forms.Platform.Android.Resource.String.path_password_strike_through = global::GuideUAPP.Droid.Resource.String.path_password_strike_through;
+			global::InTheHand.Forms.Platform.Android.Resource.String.search_menu_title = global::GuideUAPP.Droid.Resource.String.search_menu_title;
+			global::InTheHand.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::GuideUAPP.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::GuideUAPP.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::GuideUAPP.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::GuideUAPP.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::GuideUAPP.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_CardView = global::GuideUAPP.Droid.Resource.Style.Base_CardView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::GuideUAPP.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::GuideUAPP.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::GuideUAPP.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::GuideUAPP.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::GuideUAPP.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::GuideUAPP.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::GuideUAPP.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::GuideUAPP.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat = global::GuideUAPP.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::GuideUAPP.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::GuideUAPP.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::GuideUAPP.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_Design_AppBarLayout = global::GuideUAPP.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Base_Widget_Design_TabLayout = global::GuideUAPP.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.CardView = global::GuideUAPP.Droid.Resource.Style.CardView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.CardView_Dark = global::GuideUAPP.Droid.Resource.Style.CardView_Dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.CardView_Light = global::GuideUAPP.Droid.Resource.Style.CardView_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_AppCompat = global::GuideUAPP.Droid.Resource.Style.Platform_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::GuideUAPP.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::GuideUAPP.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V11_AppCompat = global::GuideUAPP.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V11_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V14_AppCompat = global::GuideUAPP.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V14_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V21_AppCompat = global::GuideUAPP.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V21_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V25_AppCompat = global::GuideUAPP.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_V25_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::GuideUAPP.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::GuideUAPP.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::GuideUAPP.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::GuideUAPP.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Button = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Info_Media;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Line2_Media;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Media = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Media;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Time_Media;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Notification_Title_Media;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::GuideUAPP.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Error = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Hint = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Design_Tab = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::GuideUAPP.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::GuideUAPP.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::GuideUAPP.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::GuideUAPP.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::GuideUAPP.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::GuideUAPP.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::GuideUAPP.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::GuideUAPP.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_Design = global::GuideUAPP.Droid.Resource.Style.Theme_Design;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::GuideUAPP.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_Design_Light = global::GuideUAPP.Droid.Resource.Style.Theme_Design_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::GuideUAPP.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::GuideUAPP.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_Design_NoActionBar = global::GuideUAPP.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_MediaRouter = global::GuideUAPP.Droid.Resource.Style.Theme_MediaRouter;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_MediaRouter_Light = global::GuideUAPP.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::GuideUAPP.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::GuideUAPP.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::GuideUAPP.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActionMode = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Button_Small = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_EditText = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ImageButton = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_NotificationActionContainer = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_NotificationActionContainer;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_NotificationActionText = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_NotificationActionText;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SearchView = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::GuideUAPP.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_AppBarLayout = global::GuideUAPP.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_BottomNavigationView = global::GuideUAPP.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::GuideUAPP.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::GuideUAPP.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::GuideUAPP.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_FloatingActionButton = global::GuideUAPP.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_NavigationView = global::GuideUAPP.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::GuideUAPP.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_Snackbar = global::GuideUAPP.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_TabLayout = global::GuideUAPP.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_Design_TextInputLayout = global::GuideUAPP.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::GuideUAPP.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::GuideUAPP.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar = global::GuideUAPP.Droid.Resource.Styleable.ActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_background = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundSplit = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_backgroundStacked = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetRight = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetStart = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_displayOptions = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_divider = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_divider;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_elevation = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_height = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_homeLayout = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_icon = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_itemPadding = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_logo = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_logo;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_navigationMode = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_popupTheme = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_progressBarPadding = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_progressBarStyle = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_subtitle = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_title = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBar_titleTextStyle = global::GuideUAPP.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBarLayout = global::GuideUAPP.Droid.Resource.Styleable.ActionBarLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::GuideUAPP.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMenuItemView = global::GuideUAPP.Droid.Resource.Styleable.ActionMenuItemView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::GuideUAPP.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMenuView = global::GuideUAPP.Droid.Resource.Styleable.ActionMenuView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMode = global::GuideUAPP.Droid.Resource.Styleable.ActionMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMode_background = global::GuideUAPP.Droid.Resource.Styleable.ActionMode_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMode_backgroundSplit = global::GuideUAPP.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMode_closeItemLayout = global::GuideUAPP.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMode_height = global::GuideUAPP.Droid.Resource.Styleable.ActionMode_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::GuideUAPP.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActionMode_titleTextStyle = global::GuideUAPP.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActivityChooserView = global::GuideUAPP.Droid.Resource.Styleable.ActivityChooserView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::GuideUAPP.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::GuideUAPP.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog_android_layout = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog_listItemLayout = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog_listLayout = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog_showTitle = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::GuideUAPP.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayout = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayout_android_background = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayout_elevation = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayout_expanded = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::GuideUAPP.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::GuideUAPP.Droid.Resource.Styleable.AppCompatImageView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::GuideUAPP.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::GuideUAPP.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_tint = global::GuideUAPP.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_tintMode = global::GuideUAPP.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar = global::GuideUAPP.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::GuideUAPP.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::GuideUAPP.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::GuideUAPP.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::GuideUAPP.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextView = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::GuideUAPP.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomNavigationView = global::GuideUAPP.Droid.Resource.Styleable.BottomNavigationView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_elevation = global::GuideUAPP.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::GuideUAPP.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::GuideUAPP.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::GuideUAPP.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomNavigationView_menu = global::GuideUAPP.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::GuideUAPP.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::GuideUAPP.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::GuideUAPP.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::GuideUAPP.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout = global::GuideUAPP.Droid.Resource.Styleable.ButtonBarLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::GuideUAPP.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView = global::GuideUAPP.Droid.Resource.Styleable.CardView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_android_minHeight = global::GuideUAPP.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_android_minWidth = global::GuideUAPP.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_cardBackgroundColor = global::GuideUAPP.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_cardCornerRadius = global::GuideUAPP.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_cardElevation = global::GuideUAPP.Droid.Resource.Styleable.CardView_cardElevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_cardMaxElevation = global::GuideUAPP.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::GuideUAPP.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::GuideUAPP.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_contentPadding = global::GuideUAPP.Droid.Resource.Styleable.CardView_contentPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingBottom = global::GuideUAPP.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingLeft = global::GuideUAPP.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingRight = global::GuideUAPP.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CardView_contentPaddingTop = global::GuideUAPP.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::GuideUAPP.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ColorStateListItem = global::GuideUAPP.Droid.Resource.Styleable.ColorStateListItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_alpha = global::GuideUAPP.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::GuideUAPP.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::GuideUAPP.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::GuideUAPP.Droid.Resource.Styleable.CompoundButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::GuideUAPP.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTint = global::GuideUAPP.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::GuideUAPP.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_keylines = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::GuideUAPP.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DesignTheme = global::GuideUAPP.Droid.Resource.Styleable.DesignTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::GuideUAPP.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::GuideUAPP.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DesignTheme_textColorError = global::GuideUAPP.Droid.Resource.Styleable.DesignTheme_textColorError;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_color = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::GuideUAPP.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_elevation = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_fabSize = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::GuideUAPP.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout = global::GuideUAPP.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::GuideUAPP.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::GuideUAPP.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::GuideUAPP.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_divider = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::GuideUAPP.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ListPopupWindow = global::GuideUAPP.Droid.Resource.Styleable.ListPopupWindow;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::GuideUAPP.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::GuideUAPP.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MediaRouteButton = global::GuideUAPP.Droid.Resource.Styleable.MediaRouteButton;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::GuideUAPP.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::GuideUAPP.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MediaRouteButton_buttonTint = global::GuideUAPP.Droid.Resource.Styleable.MediaRouteButton_buttonTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::GuideUAPP.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuGroup = global::GuideUAPP.Droid.Resource.Styleable.MenuGroup;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::GuideUAPP.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_enabled = global::GuideUAPP.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_id = global::GuideUAPP.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::GuideUAPP.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::GuideUAPP.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuGroup_android_visible = global::GuideUAPP.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem = global::GuideUAPP.Droid.Resource.Styleable.MenuItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_actionLayout = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_actionProviderClass = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_actionViewClass = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_checkable = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_checked = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_enabled = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_icon = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_id = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_id;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_menuCategory = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_onClick = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_title = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_android_visible = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuItem_showAsAction = global::GuideUAPP.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView = global::GuideUAPP.Droid.Resource.Styleable.MenuView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_android_headerBackground = global::GuideUAPP.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::GuideUAPP.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemBackground = global::GuideUAPP.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::GuideUAPP.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_android_verticalDivider = global::GuideUAPP.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::GuideUAPP.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::GuideUAPP.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.MenuView_subMenuArrow = global::GuideUAPP.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView = global::GuideUAPP.Droid.Resource.Styleable.NavigationView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_android_background = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_android_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_android_maxWidth = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_elevation = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_headerLayout = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_itemBackground = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_itemIconTint = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_itemTextColor = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.NavigationView_menu = global::GuideUAPP.Droid.Resource.Styleable.NavigationView_menu;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.PopupWindow = global::GuideUAPP.Droid.Resource.Styleable.PopupWindow;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::GuideUAPP.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::GuideUAPP.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::GuideUAPP.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState = global::GuideUAPP.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::GuideUAPP.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecycleListView = global::GuideUAPP.Droid.Resource.Styleable.RecycleListView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::GuideUAPP.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::GuideUAPP.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecyclerView = global::GuideUAPP.Droid.Resource.Styleable.RecyclerView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::GuideUAPP.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecyclerView_android_orientation = global::GuideUAPP.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecyclerView_layoutManager = global::GuideUAPP.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecyclerView_reverseLayout = global::GuideUAPP.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecyclerView_spanCount = global::GuideUAPP.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::GuideUAPP.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::GuideUAPP.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::GuideUAPP.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::GuideUAPP.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::GuideUAPP.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView = global::GuideUAPP.Droid.Resource.Styleable.SearchView;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::GuideUAPP.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::GuideUAPP.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_android_inputType = global::GuideUAPP.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_android_maxWidth = global::GuideUAPP.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_closeIcon = global::GuideUAPP.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_commitIcon = global::GuideUAPP.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_defaultQueryHint = global::GuideUAPP.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_goIcon = global::GuideUAPP.Droid.Resource.Styleable.SearchView_goIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::GuideUAPP.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_layout = global::GuideUAPP.Droid.Resource.Styleable.SearchView_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_queryBackground = global::GuideUAPP.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_queryHint = global::GuideUAPP.Droid.Resource.Styleable.SearchView_queryHint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_searchHintIcon = global::GuideUAPP.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_searchIcon = global::GuideUAPP.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_submitBackground = global::GuideUAPP.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::GuideUAPP.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SearchView_voiceIcon = global::GuideUAPP.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SnackbarLayout = global::GuideUAPP.Droid.Resource.Styleable.SnackbarLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::GuideUAPP.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_elevation = global::GuideUAPP.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::GuideUAPP.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Spinner = global::GuideUAPP.Droid.Resource.Styleable.Spinner;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::GuideUAPP.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Spinner_android_entries = global::GuideUAPP.Droid.Resource.Styleable.Spinner_android_entries;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Spinner_android_popupBackground = global::GuideUAPP.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Spinner_android_prompt = global::GuideUAPP.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Spinner_popupTheme = global::GuideUAPP.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOff = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_textOn = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_android_thumb = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_showText = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_splitTrack = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchPadding = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTint = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_track = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_track;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTint = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::GuideUAPP.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabItem = global::GuideUAPP.Droid.Resource.Styleable.TabItem;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabItem_android_icon = global::GuideUAPP.Droid.Resource.Styleable.TabItem_android_icon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabItem_android_layout = global::GuideUAPP.Droid.Resource.Styleable.TabItem_android_layout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabItem_android_text = global::GuideUAPP.Droid.Resource.Styleable.TabItem_android_text;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout = global::GuideUAPP.Droid.Resource.Styleable.TabLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabBackground = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabContentStart = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabGravity = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMinWidth = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabMode = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPadding = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TabLayout_tabTextColor = global::GuideUAPP.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColor = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textSize = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_textStyle = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_android_typeface = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextAppearance_textAllCaps = global::GuideUAPP.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_hint = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::GuideUAPP.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar = global::GuideUAPP.Droid.Resource.Styleable.Toolbar;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_android_gravity = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_android_minHeight = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_buttonGravity = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_collapseIcon = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetRight = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetStart = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_logo = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_logo;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_logoDescription = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_navigationIcon = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_popupTheme = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitle = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_title = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_title;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMargin = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginStart = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMarginTop = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleMargins = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.Toolbar_titleTextColor = global::GuideUAPP.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.View = global::GuideUAPP.Droid.Resource.Styleable.View;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.View_android_focusable = global::GuideUAPP.Droid.Resource.Styleable.View_android_focusable;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.View_android_theme = global::GuideUAPP.Droid.Resource.Styleable.View_android_theme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::GuideUAPP.Droid.Resource.Styleable.View_paddingEnd;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::GuideUAPP.Droid.Resource.Styleable.View_paddingStart;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.View_theme = global::GuideUAPP.Droid.Resource.Styleable.View_theme;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper = global::GuideUAPP.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::GuideUAPP.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::GuideUAPP.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::GuideUAPP.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewStubCompat = global::GuideUAPP.Droid.Resource.Styleable.ViewStubCompat;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_id = global::GuideUAPP.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::GuideUAPP.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::InTheHand.Forms.Platform.Android.Resource.Styleable.ViewStubCompat_android_layout = global::GuideUAPP.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::GuideUAPP.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -322,8 +2443,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x7F010021
 			public const int buttonPanelSideLayout = 2130772001;
 			
-			// aapt resource value: 0x7F080343
-			public const int buttonSize = 2131231555;
+			// aapt resource value: 0x7F090343
+			public const int buttonSize = 2131297091;
 			
 			// aapt resource value: 0x7F010098
 			public const int buttonStyle = 2130772120;
@@ -481,8 +2602,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x7F010086
 			public const int colorPrimaryDark = 2130772102;
 			
-			// aapt resource value: 0x7F080344
-			public const int colorScheme = 2131231556;
+			// aapt resource value: 0x7F090344
+			public const int colorScheme = 2131297092;
 			
 			// aapt resource value: 0x7F01008C
 			public const int colorSwitchThumbNormal = 2130772108;
@@ -1024,8 +3145,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int schemaOrgType = 1;
 			
-			// aapt resource value: 0x7F080345
-			public const int scopeUris = 2131231557;
+			// aapt resource value: 0x7F090345
+			public const int scopeUris = 2131297093;
 			
 			// aapt resource value: 0x7F0100B4
 			public const int scrimAnimationDuration = 2130772148;
@@ -2900,71 +5021,71 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int cast_skip_ad_label_border = 1;
 			
-			// aapt resource value: 0x7F010282
-			public const int common_full_open_on_phone = 2130772610;
-			
-			// aapt resource value: 0x7F010278
-			public const int common_google_signin_btn_icon_dark = 2130772600;
-			
-			// aapt resource value: 0x7F010283
-			public const int common_google_signin_btn_icon_dark_disabled = 2130772611;
-			
-			// aapt resource value: 0x7F010284
-			public const int common_google_signin_btn_icon_dark_focused = 2130772612;
-			
-			// aapt resource value: 0x7F010285
-			public const int common_google_signin_btn_icon_dark_normal = 2130772613;
-			
-			// aapt resource value: 0x7F010286
-			public const int common_google_signin_btn_icon_dark_pressed = 2130772614;
-			
-			// aapt resource value: 0x7F010279
-			public const int common_google_signin_btn_icon_light = 2130772601;
-			
-			// aapt resource value: 0x7F010287
-			public const int common_google_signin_btn_icon_light_disabled = 2130772615;
-			
-			// aapt resource value: 0x7F010288
-			public const int common_google_signin_btn_icon_light_focused = 2130772616;
-			
-			// aapt resource value: 0x7F010289
-			public const int common_google_signin_btn_icon_light_normal = 2130772617;
-			
-			// aapt resource value: 0x7F010290
-			public const int common_google_signin_btn_icon_light_pressed = 2130772624;
-			
-			// aapt resource value: 0x7F010280
-			public const int common_google_signin_btn_text_dark = 2130772608;
-			
-			// aapt resource value: 0x7F010291
-			public const int common_google_signin_btn_text_dark_disabled = 2130772625;
-			
-			// aapt resource value: 0x7F010292
-			public const int common_google_signin_btn_text_dark_focused = 2130772626;
-			
-			// aapt resource value: 0x7F010293
-			public const int common_google_signin_btn_text_dark_normal = 2130772627;
+			// aapt resource value: 0x7F010298
+			public const int common_full_open_on_phone = 2130772632;
 			
 			// aapt resource value: 0x7F010294
-			public const int common_google_signin_btn_text_dark_pressed = 2130772628;
-			
-			// aapt resource value: 0x7F010281
-			public const int common_google_signin_btn_text_light = 2130772609;
-			
-			// aapt resource value: 0x7F010295
-			public const int common_google_signin_btn_text_light_disabled = 2130772629;
-			
-			// aapt resource value: 0x7F010296
-			public const int common_google_signin_btn_text_light_focused = 2130772630;
-			
-			// aapt resource value: 0x7F010297
-			public const int common_google_signin_btn_text_light_normal = 2130772631;
-			
-			// aapt resource value: 0x7F010298
-			public const int common_google_signin_btn_text_light_pressed = 2130772632;
+			public const int common_google_signin_btn_icon_dark = 2130772628;
 			
 			// aapt resource value: 0x7F010299
-			public const int common_ic_googleplayservices = 2130772633;
+			public const int common_google_signin_btn_icon_dark_disabled = 2130772633;
+			
+			// aapt resource value: 0x7F010300
+			public const int common_google_signin_btn_icon_dark_focused = 2130772736;
+			
+			// aapt resource value: 0x7F010301
+			public const int common_google_signin_btn_icon_dark_normal = 2130772737;
+			
+			// aapt resource value: 0x7F010302
+			public const int common_google_signin_btn_icon_dark_pressed = 2130772738;
+			
+			// aapt resource value: 0x7F010295
+			public const int common_google_signin_btn_icon_light = 2130772629;
+			
+			// aapt resource value: 0x7F010303
+			public const int common_google_signin_btn_icon_light_disabled = 2130772739;
+			
+			// aapt resource value: 0x7F010304
+			public const int common_google_signin_btn_icon_light_focused = 2130772740;
+			
+			// aapt resource value: 0x7F010305
+			public const int common_google_signin_btn_icon_light_normal = 2130772741;
+			
+			// aapt resource value: 0x7F010306
+			public const int common_google_signin_btn_icon_light_pressed = 2130772742;
+			
+			// aapt resource value: 0x7F010296
+			public const int common_google_signin_btn_text_dark = 2130772630;
+			
+			// aapt resource value: 0x7F010307
+			public const int common_google_signin_btn_text_dark_disabled = 2130772743;
+			
+			// aapt resource value: 0x7F010308
+			public const int common_google_signin_btn_text_dark_focused = 2130772744;
+			
+			// aapt resource value: 0x7F010309
+			public const int common_google_signin_btn_text_dark_normal = 2130772745;
+			
+			// aapt resource value: 0x7F010310
+			public const int common_google_signin_btn_text_dark_pressed = 2130772752;
+			
+			// aapt resource value: 0x7F010297
+			public const int common_google_signin_btn_text_light = 2130772631;
+			
+			// aapt resource value: 0x7F010311
+			public const int common_google_signin_btn_text_light_disabled = 2130772753;
+			
+			// aapt resource value: 0x7F010312
+			public const int common_google_signin_btn_text_light_focused = 2130772754;
+			
+			// aapt resource value: 0x7F010313
+			public const int common_google_signin_btn_text_light_normal = 2130772755;
+			
+			// aapt resource value: 0x7F010314
+			public const int common_google_signin_btn_text_light_pressed = 2130772756;
+			
+			// aapt resource value: 0x7F010315
+			public const int common_ic_googleplayservices = 2130772757;
 			
 			// aapt resource value: 0x7F020055
 			public const int design_bottom_navigation_item_background = 2130837589;
@@ -2983,9 +5104,6 @@ namespace GuideUAPP.Droid
 			
 			// aapt resource value: 0x7F02005A
 			public const int design_snackbar_background = 2130837594;
-			
-			// aapt resource value: 0x7F010002
-			public const int googleiconn = 2130771970;
 			
 			// aapt resource value: 0x7F020053
 			public const int ic_audiotrack_dark = 2130837587;
@@ -3667,6 +5785,57 @@ namespace GuideUAPP.Droid
 			
 			// aapt resource value: 0x1
 			public const int quantum_ic_volume_up_white_36 = 1;
+			
+			// aapt resource value: 0x7F010002
+			public const int rating = 2130771970;
+			
+			// aapt resource value: 0x7F010003
+			public const int ratingg = 2130771971;
+			
+			// aapt resource value: 0x7F010004
+			public const int ratinggg = 2130771972;
+			
+			// aapt resource value: 0x7F010005
+			public const int ratingggg = 2130771973;
+			
+			// aapt resource value: 0x7F010006
+			public const int ratinggggg = 2130771974;
+			
+			// aapt resource value: 0x7F010007
+			public const int tgboy = 2130771975;
+			
+			// aapt resource value: 0x7F010008
+			public const int tgboyy = 2130771976;
+			
+			// aapt resource value: 0x7F010009
+			public const int tgboyyy = 2130771977;
+			
+			// aapt resource value: 0x7F010010
+			public const int tggirl = 2130771984;
+			
+			// aapt resource value: 0x7F010011
+			public const int tggirll = 2130771985;
+			
+			// aapt resource value: 0x7F010012
+			public const int tggirlll = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int tggirllll = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int tggirlllll = 2130771988;
+			
+			// aapt resource value: 0x7F010015
+			public const int tgmale = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int tgmalee = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int tgmaleee = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int tgmaleeepng = 2130771992;
 			
 			static Drawable()
 			{
@@ -5027,6 +7196,9 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x7F060021
 			public const int appbar_scrolling_view_behavior = 2131099681;
 			
+			// aapt resource value: 0x7F070003
+			public const int ApplicationName = 2131165187;
+			
 			// aapt resource value: 0x7F060022
 			public const int bottom_sheet_behavior = 2131099682;
 			
@@ -5150,65 +7322,65 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x7F060023
 			public const int character_counter_pattern = 2131099683;
 			
-			// aapt resource value: 0x7F090064
-			public const int common_google_play_services_enable_button = 2131296356;
+			// aapt resource value: 0x7F070066
+			public const int common_google_play_services_enable_button = 2131165286;
 			
-			// aapt resource value: 0x7F090065
-			public const int common_google_play_services_enable_text = 2131296357;
+			// aapt resource value: 0x7F070067
+			public const int common_google_play_services_enable_text = 2131165287;
 			
-			// aapt resource value: 0x7F090066
-			public const int common_google_play_services_enable_title = 2131296358;
+			// aapt resource value: 0x7F070068
+			public const int common_google_play_services_enable_title = 2131165288;
 			
-			// aapt resource value: 0x7F090067
-			public const int common_google_play_services_install_button = 2131296359;
+			// aapt resource value: 0x7F070069
+			public const int common_google_play_services_install_button = 2131165289;
 			
-			// aapt resource value: 0x7F090068
-			public const int common_google_play_services_install_text_phone = 2131296360;
+			// aapt resource value: 0x7F070070
+			public const int common_google_play_services_install_text_phone = 2131165296;
 			
-			// aapt resource value: 0x7F090069
-			public const int common_google_play_services_install_text_tablet = 2131296361;
+			// aapt resource value: 0x7F070071
+			public const int common_google_play_services_install_text_tablet = 2131165297;
 			
-			// aapt resource value: 0x7F090070
-			public const int common_google_play_services_install_title = 2131296368;
+			// aapt resource value: 0x7F070072
+			public const int common_google_play_services_install_title = 2131165298;
 			
-			// aapt resource value: 0x7F090071
-			public const int common_google_play_services_notification_ticker = 2131296369;
+			// aapt resource value: 0x7F070073
+			public const int common_google_play_services_notification_ticker = 2131165299;
 			
 			// aapt resource value: 0x1
 			public const int common_google_play_services_unknown_issue = 1;
 			
-			// aapt resource value: 0x7F090072
-			public const int common_google_play_services_unsupported_text = 2131296370;
+			// aapt resource value: 0x7F070074
+			public const int common_google_play_services_unsupported_text = 2131165300;
 			
-			// aapt resource value: 0x7F090073
-			public const int common_google_play_services_unsupported_title = 2131296371;
+			// aapt resource value: 0x7F070075
+			public const int common_google_play_services_unsupported_title = 2131165301;
 			
-			// aapt resource value: 0x7F090074
-			public const int common_google_play_services_update_button = 2131296372;
+			// aapt resource value: 0x7F070076
+			public const int common_google_play_services_update_button = 2131165302;
 			
-			// aapt resource value: 0x7F090075
-			public const int common_google_play_services_update_text = 2131296373;
+			// aapt resource value: 0x7F070077
+			public const int common_google_play_services_update_text = 2131165303;
 			
-			// aapt resource value: 0x7F090076
-			public const int common_google_play_services_update_title = 2131296374;
+			// aapt resource value: 0x7F070078
+			public const int common_google_play_services_update_title = 2131165304;
 			
-			// aapt resource value: 0x7F090077
-			public const int common_google_play_services_updating_text = 2131296375;
+			// aapt resource value: 0x7F070079
+			public const int common_google_play_services_updating_text = 2131165305;
 			
-			// aapt resource value: 0x7F090078
-			public const int common_google_play_services_updating_title = 2131296376;
+			// aapt resource value: 0x7F070080
+			public const int common_google_play_services_updating_title = 2131165312;
 			
-			// aapt resource value: 0x7F090079
-			public const int common_google_play_services_wear_update_text = 2131296377;
+			// aapt resource value: 0x7F070081
+			public const int common_google_play_services_wear_update_text = 2131165313;
 			
-			// aapt resource value: 0x7F090080
-			public const int common_open_on_phone = 2131296384;
+			// aapt resource value: 0x7F070082
+			public const int common_open_on_phone = 2131165314;
 			
-			// aapt resource value: 0x7F090081
-			public const int common_signin_button_text = 2131296385;
+			// aapt resource value: 0x7F070083
+			public const int common_signin_button_text = 2131165315;
 			
-			// aapt resource value: 0x7F090082
-			public const int common_signin_button_text_long = 2131296386;
+			// aapt resource value: 0x7F070084
+			public const int common_signin_button_text_long = 2131165316;
 			
 			// aapt resource value: 0x1
 			public const int create_calendar_message = 1;
@@ -5230,6 +7402,9 @@ namespace GuideUAPP.Droid
 			
 			// aapt resource value: 0x1
 			public const int decline = 1;
+			
+			// aapt resource value: 0x7F070002
+			public const int Hello = 2131165186;
 			
 			// aapt resource value: 0x7F060013
 			public const int mr_button_content_description = 2131099667;
@@ -6632,8 +8807,8 @@ namespace GuideUAPP.Droid
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F070033
-			public const int ActionBarLayout_android_layout_gravity = 2131165235;
+			// aapt resource value: 0x7F080033
+			public const int ActionBarLayout_android_layout_gravity = 2131230771;
 			
 			// aapt resource value: 0x10
 			public const int ActionBar_background = 16;
@@ -6674,8 +8849,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x26
 			public const int ActionBar_elevation = 38;
 			
-			// aapt resource value: 0x7F070016
-			public const int ActionBar_height = 2131165206;
+			// aapt resource value: 0x7F080016
+			public const int ActionBar_height = 2131230742;
 			
 			// aapt resource value: 0x19
 			public const int ActionBar_hideOnContentScroll = 25;
@@ -6725,8 +8900,8 @@ namespace GuideUAPP.Droid
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F070035
-			public const int ActionMenuItemView_android_minWidth = 2131165237;
+			// aapt resource value: 0x7F080035
+			public const int ActionMenuItemView_android_minWidth = 2131230773;
 			
 			public static int[] ActionMenuView = new int[] {
 					0};
@@ -6748,8 +8923,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x5
 			public const int ActionMode_closeItemLayout = 5;
 			
-			// aapt resource value: 0x7F070041
-			public const int ActionMode_height = 2131165249;
+			// aapt resource value: 0x7F080041
+			public const int ActionMode_height = 2131230785;
 			
 			// aapt resource value: 0x2
 			public const int ActionMode_subtitleTextStyle = 2;
@@ -6764,16 +8939,16 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 1;
 			
-			// aapt resource value: 0x7F070046
-			public const int ActivityChooserView_initialActivityCount = 2131165254;
+			// aapt resource value: 0x7F080046
+			public const int ActivityChooserView_initialActivityCount = 2131230790;
 			
 			public static int[] AdsAttrs = new int[] {
 					1,
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070526
-			public const int AdsAttrs_adSize = 2131166502;
+			// aapt resource value: 0x7F080526
+			public const int AdsAttrs_adSize = 2131232038;
 			
 			// aapt resource value: 0x1
 			public const int AdsAttrs_adSizes = 1;
@@ -6790,8 +8965,8 @@ namespace GuideUAPP.Droid
 					2130772005,
 					2130772006};
 			
-			// aapt resource value: 0x7F070048
-			public const int AlertDialog_android_layout = 2131165256;
+			// aapt resource value: 0x7F080048
+			public const int AlertDialog_android_layout = 2131230792;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -6820,14 +8995,14 @@ namespace GuideUAPP.Droid
 					2130772008,
 					2130772009};
 			
-			// aapt resource value: 0x7F070060
-			public const int AppBarLayoutStates_state_collapsed = 2131165280;
+			// aapt resource value: 0x7F080060
+			public const int AppBarLayoutStates_state_collapsed = 2131230816;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayoutStates_state_collapsible = 1;
 			
-			// aapt resource value: 0x7F070056
-			public const int AppBarLayout_android_background = 2131165270;
+			// aapt resource value: 0x7F080056
+			public const int AppBarLayout_android_background = 2131230806;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_elevation = 1;
@@ -6839,8 +9014,8 @@ namespace GuideUAPP.Droid
 					2130772010,
 					2130772011};
 			
-			// aapt resource value: 0x7F070063
-			public const int AppBarLayout_Layout_layout_scrollFlags = 2131165283;
+			// aapt resource value: 0x7F080063
+			public const int AppBarLayout_Layout_layout_scrollFlags = 2131230819;
 			
 			// aapt resource value: 0x1
 			public const int AppBarLayout_Layout_layout_scrollInterpolator = 1;
@@ -6851,8 +9026,8 @@ namespace GuideUAPP.Droid
 					2130772013,
 					2130772014};
 			
-			// aapt resource value: 0x7F070066
-			public const int AppCompatImageView_android_src = 2131165286;
+			// aapt resource value: 0x7F080066
+			public const int AppCompatImageView_android_src = 2131230822;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -6869,8 +9044,8 @@ namespace GuideUAPP.Droid
 					2130772016,
 					2130772017};
 			
-			// aapt resource value: 0x7F070071
-			public const int AppCompatSeekBar_android_thumb = 2131165297;
+			// aapt resource value: 0x7F080071
+			public const int AppCompatSeekBar_android_thumb = 2131230833;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -6908,15 +9083,15 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableTop = 1;
 			
-			// aapt resource value: 0x7F070082
-			public const int AppCompatTextHelper_android_textAppearance = 2131165314;
+			// aapt resource value: 0x7F080082
+			public const int AppCompatTextHelper_android_textAppearance = 2131230850;
 			
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130772018};
 			
-			// aapt resource value: 0x7F070084
-			public const int AppCompatTextView_android_textAppearance = 2131165316;
+			// aapt resource value: 0x7F080084
+			public const int AppCompatTextView_android_textAppearance = 2131230852;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_textAllCaps = 1;
@@ -7147,8 +9322,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_android_windowAnimationStyle = 1;
 			
-			// aapt resource value: 0x7F070123
-			public const int AppCompatTheme_android_windowIsFloating = 2131165475;
+			// aapt resource value: 0x7F080123
+			public const int AppCompatTheme_android_windowIsFloating = 2131231011;
 			
 			// aapt resource value: 0x102
 			public const int AppCompatTheme_autoCompleteTextViewStyle = 258;
@@ -7397,8 +9572,8 @@ namespace GuideUAPP.Droid
 					2130772194,
 					2130772195};
 			
-			// aapt resource value: 0x7F070204
-			public const int BottomNavigationView_elevation = 2131165700;
+			// aapt resource value: 0x7F080204
+			public const int BottomNavigationView_elevation = 2131231236;
 			
 			// aapt resource value: 0x4
 			public const int BottomNavigationView_itemBackground = 4;
@@ -7420,8 +9595,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int BottomSheetBehavior_Layout_behavior_hideable = 1;
 			
-			// aapt resource value: 0x7F070211
-			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 2131165713;
+			// aapt resource value: 0x7F080211
+			public const int BottomSheetBehavior_Layout_behavior_peekHeight = 2131231249;
 			
 			// aapt resource value: 0x2
 			public const int BottomSheetBehavior_Layout_behavior_skipCollapsed = 2;
@@ -7429,8 +9604,8 @@ namespace GuideUAPP.Droid
 			public static int[] ButtonBarLayout = new int[] {
 					2130772136};
 			
-			// aapt resource value: 0x7F070214
-			public const int ButtonBarLayout_allowStacking = 2131165716;
+			// aapt resource value: 0x7F080214
+			public const int ButtonBarLayout_allowStacking = 2131231252;
 			
 			public static int[] CardView = new int[] {
 					16843071,
@@ -7450,8 +9625,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int CardView_android_minHeight = 1;
 			
-			// aapt resource value: 0x7F070504
-			public const int CardView_android_minWidth = 2131166468;
+			// aapt resource value: 0x7F080504
+			public const int CardView_android_minWidth = 2131232004;
 			
 			// aapt resource value: 0x2
 			public const int CardView_cardBackgroundColor = 2;
@@ -7489,8 +9664,8 @@ namespace GuideUAPP.Droid
 			public static int[] CastExpandedController = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F070531
-			public const int CastExpandedController_castControlButtons = 2131166513;
+			// aapt resource value: 0x7F080531
+			public const int CastExpandedController_castControlButtons = 2131232049;
 			
 			public static int[] CastIntroOverlay = new int[] {
 					1,
@@ -7500,8 +9675,8 @@ namespace GuideUAPP.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070533
-			public const int CastIntroOverlay_castBackgroundColor = 2131166515;
+			// aapt resource value: 0x7F080533
+			public const int CastIntroOverlay_castBackgroundColor = 2131232051;
 			
 			// aapt resource value: 0x1
 			public const int CastIntroOverlay_castButtonBackgroundColor = 1;
@@ -7533,8 +9708,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x2
 			public const int CastMiniController_castSubtitleTextAppearance = 2;
 			
-			// aapt resource value: 0x7F070543
-			public const int CastMiniController_castTitleTextAppearance = 2131166531;
+			// aapt resource value: 0x7F080543
+			public const int CastMiniController_castTitleTextAppearance = 2131232067;
 			
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130771971,
@@ -7588,8 +9763,8 @@ namespace GuideUAPP.Droid
 					2130772152,
 					2130772153};
 			
-			// aapt resource value: 0x7F070233
-			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131165747;
+			// aapt resource value: 0x7F080233
+			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 2131231283;
 			
 			// aapt resource value: 0x1
 			public const int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = 1;
@@ -7603,8 +9778,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x9
 			public const int CollapsingToolbarLayout_statusBarScrim = 9;
 			
-			// aapt resource value: 0x7F070229
-			public const int CollapsingToolbarLayout_title = 2131165737;
+			// aapt resource value: 0x7F080229
+			public const int CollapsingToolbarLayout_title = 2131231273;
 			
 			// aapt resource value: 0x15
 			public const int CollapsingToolbarLayout_titleEnabled = 21;
@@ -7623,16 +9798,16 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
 			
-			// aapt resource value: 0x7F070238
-			public const int ColorStateListItem_android_color = 2131165752;
+			// aapt resource value: 0x7F080238
+			public const int ColorStateListItem_android_color = 2131231288;
 			
 			public static int[] CompoundButton = new int[] {
 					16843015,
 					2130772155,
 					2130772156};
 			
-			// aapt resource value: 0x7F070240
-			public const int CompoundButton_android_button = 2131165760;
+			// aapt resource value: 0x7F080240
+			public const int CompoundButton_android_button = 2131231296;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -7644,8 +9819,8 @@ namespace GuideUAPP.Droid
 					2130772157,
 					2130772158};
 			
-			// aapt resource value: 0x7F070244
-			public const int CoordinatorLayout_keylines = 2131165764;
+			// aapt resource value: 0x7F080244
+			public const int CoordinatorLayout_keylines = 2131231300;
 			
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
@@ -7656,8 +9831,8 @@ namespace GuideUAPP.Droid
 					2130772163,
 					2130772164};
 			
-			// aapt resource value: 0x7F070247
-			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131165767;
+			// aapt resource value: 0x7F080247
+			public const int CoordinatorLayout_Layout_android_layout_gravity = 2131231303;
 			
 			// aapt resource value: 0x2
 			public const int CoordinatorLayout_Layout_layout_anchor = 2;
@@ -7693,8 +9868,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x2
 			public const int Corpus_contentProviderUri = 2;
 			
-			// aapt resource value: 0x7F070546
-			public const int Corpus_corpusId = 2131166534;
+			// aapt resource value: 0x7F080546
+			public const int Corpus_corpusId = 2131232070;
 			
 			// aapt resource value: 0x1
 			public const int Corpus_corpusVersion = 1;
@@ -7722,8 +9897,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x2
 			public const int CustomCastTheme_castExpandedControllerStyle = 2;
 			
-			// aapt resource value: 0x7F070555
-			public const int CustomCastTheme_castIntroOverlayStyle = 2131166549;
+			// aapt resource value: 0x7F080555
+			public const int CustomCastTheme_castIntroOverlayStyle = 2131232085;
 			
 			// aapt resource value: 0x1
 			public const int CustomCastTheme_castMiniControllerStyle = 1;
@@ -7735,16 +9910,16 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int CustomWalletTheme_toolbarTextColorStyle = 1;
 			
-			// aapt resource value: 0x7F070559
-			public const int CustomWalletTheme_windowTransitionStyle = 2131166553;
+			// aapt resource value: 0x7F080559
+			public const int CustomWalletTheme_windowTransitionStyle = 2131232089;
 			
 			public static int[] DesignTheme = new int[] {
 					2130772165,
 					2130772166,
 					2130772167};
 			
-			// aapt resource value: 0x7F070255
-			public const int DesignTheme_bottomSheetDialogTheme = 2131165781;
+			// aapt resource value: 0x7F080255
+			public const int DesignTheme_bottomSheetDialogTheme = 2131231317;
 			
 			// aapt resource value: 0x1
 			public const int DesignTheme_bottomSheetStyle = 1;
@@ -7771,8 +9946,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x6
 			public const int DrawerArrowToggle_barLength = 6;
 			
-			// aapt resource value: 0x7F070262
-			public const int DrawerArrowToggle_color = 2131165794;
+			// aapt resource value: 0x7F080262
+			public const int DrawerArrowToggle_color = 2131231330;
 			
 			// aapt resource value: 0x2
 			public const int DrawerArrowToggle_drawableSize = 2;
@@ -7790,8 +9965,8 @@ namespace GuideUAPP.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070561
-			public const int FeatureParam_paramName = 2131166561;
+			// aapt resource value: 0x7F080561
+			public const int FeatureParam_paramName = 2131232097;
 			
 			// aapt resource value: 0x1
 			public const int FeatureParam_paramValue = 1;
@@ -7815,14 +9990,14 @@ namespace GuideUAPP.Droid
 			public static int[] FloatingActionButton_Behavior_Layout = new int[] {
 					2130772181};
 			
-			// aapt resource value: 0x7F070277
-			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131165815;
+			// aapt resource value: 0x7F080277
+			public const int FloatingActionButton_Behavior_Layout_behavior_autoHide = 2131231351;
 			
 			// aapt resource value: 0x4
 			public const int FloatingActionButton_borderWidth = 4;
 			
-			// aapt resource value: 0x7F070271
-			public const int FloatingActionButton_elevation = 2131165809;
+			// aapt resource value: 0x7F080271
+			public const int FloatingActionButton_elevation = 2131231345;
 			
 			// aapt resource value: 0x2
 			public const int FloatingActionButton_fabSize = 2;
@@ -7841,8 +10016,8 @@ namespace GuideUAPP.Droid
 					16843264,
 					2130772182};
 			
-			// aapt resource value: 0x7F070279
-			public const int ForegroundLinearLayout_android_foreground = 2131165817;
+			// aapt resource value: 0x7F080279
+			public const int ForegroundLinearLayout_android_foreground = 2131231353;
 			
 			// aapt resource value: 0x1
 			public const int ForegroundLinearLayout_android_foregroundGravity = 1;
@@ -7861,8 +10036,8 @@ namespace GuideUAPP.Droid
 			public static int[] GlobalSearchCorpus = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F070571
-			public const int GlobalSearchCorpus_allowShortcuts = 2131166577;
+			// aapt resource value: 0x7F080571
+			public const int GlobalSearchCorpus_allowShortcuts = 2131232113;
 			
 			public static int[] GlobalSearchSection = new int[] {
 					1,
@@ -7871,8 +10046,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int GlobalSearchSection_sectionContent = 1;
 			
-			// aapt resource value: 0x7F070574
-			public const int GlobalSearchSection_sectionType = 2131166580;
+			// aapt resource value: 0x7F080574
+			public const int GlobalSearchSection_sectionType = 2131232116;
 			
 			// aapt resource value: 0x3
 			public const int GlobalSearch_defaultIntentAction = 3;
@@ -7883,8 +10058,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x4
 			public const int GlobalSearch_defaultIntentData = 4;
 			
-			// aapt resource value: 0x7F070567
-			public const int GlobalSearch_searchEnabled = 2131166567;
+			// aapt resource value: 0x7F080567
+			public const int GlobalSearch_searchEnabled = 2131232103;
 			
 			// aapt resource value: 0x1
 			public const int GlobalSearch_searchLabel = 1;
@@ -7900,8 +10075,8 @@ namespace GuideUAPP.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070576
-			public const int IMECorpus_inputEnabled = 2131166582;
+			// aapt resource value: 0x7F080576
+			public const int IMECorpus_inputEnabled = 2131232118;
 			
 			// aapt resource value: 0x1
 			public const int IMECorpus_sourceClass = 1;
@@ -7935,8 +10110,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x3
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 3;
 			
-			// aapt resource value: 0x7F070285
-			public const int LinearLayoutCompat_android_gravity = 2131165829;
+			// aapt resource value: 0x7F080285
+			public const int LinearLayoutCompat_android_gravity = 2131231365;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_orientation = 1;
@@ -7956,8 +10131,8 @@ namespace GuideUAPP.Droid
 					16842997,
 					16843137};
 			
-			// aapt resource value: 0x7F070293
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131165843;
+			// aapt resource value: 0x7F080293
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231379;
 			
 			// aapt resource value: 0x2
 			public const int LinearLayoutCompat_Layout_android_layout_height = 2;
@@ -7978,8 +10153,8 @@ namespace GuideUAPP.Droid
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F070298
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131165848;
+			// aapt resource value: 0x7F080298
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231384;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -7995,8 +10170,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int LoadingImageView_imageAspectRatio = 1;
 			
-			// aapt resource value: 0x7F070585
-			public const int LoadingImageView_imageAspectRatioAdjust = 2131166597;
+			// aapt resource value: 0x7F080585
+			public const int LoadingImageView_imageAspectRatioAdjust = 2131232133;
 			
 			public static int[] MapAttrs = new int[] {
 					1,
@@ -8062,8 +10237,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x6
 			public const int MapAttrs_liteMode = 6;
 			
-			// aapt resource value: 0x7F070600
-			public const int MapAttrs_mapType = 2131166720;
+			// aapt resource value: 0x7F080600
+			public const int MapAttrs_mapType = 2131232256;
 			
 			// aapt resource value: 0x7
 			public const int MapAttrs_uiCompass = 7;
@@ -8101,8 +10276,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int MediaRouteButton_android_minHeight = 1;
 			
-			// aapt resource value: 0x7F070518
-			public const int MediaRouteButton_android_minWidth = 2131166488;
+			// aapt resource value: 0x7F080518
+			public const int MediaRouteButton_android_minWidth = 2131232024;
 			
 			// aapt resource value: 0x2
 			public const int MediaRouteButton_buttonTint = 2;
@@ -8121,8 +10296,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x5
 			public const int MenuGroup_android_checkableBehavior = 5;
 			
-			// aapt resource value: 0x7F070302
-			public const int MenuGroup_android_enabled = 2131165954;
+			// aapt resource value: 0x7F080302
+			public const int MenuGroup_android_enabled = 2131231490;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_id = 1;
@@ -8176,8 +10351,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int MenuItem_android_enabled = 1;
 			
-			// aapt resource value: 0x7F070315
-			public const int MenuItem_android_icon = 2131165973;
+			// aapt resource value: 0x7F080315
+			public const int MenuItem_android_icon = 2131231509;
 			
 			// aapt resource value: 0x2
 			public const int MenuItem_android_id = 2;
@@ -8235,8 +10410,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x3
 			public const int MenuView_android_verticalDivider = 3;
 			
-			// aapt resource value: 0x7F070332
-			public const int MenuView_android_windowAnimationStyle = 2131166002;
+			// aapt resource value: 0x7F080332
+			public const int MenuView_android_windowAnimationStyle = 2131231538;
 			
 			// aapt resource value: 0x7
 			public const int MenuView_preserveIconSpacing = 7;
@@ -8256,8 +10431,8 @@ namespace GuideUAPP.Droid
 					2130772196,
 					2130772197};
 			
-			// aapt resource value: 0x7F070336
-			public const int NavigationView_android_background = 2131166006;
+			// aapt resource value: 0x7F080336
+			public const int NavigationView_android_background = 2131231542;
 			
 			// aapt resource value: 0x1
 			public const int NavigationView_android_fitsSystemWindows = 1;
@@ -8294,14 +10469,14 @@ namespace GuideUAPP.Droid
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130772199};
 			
-			// aapt resource value: 0x7F070351
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131166033;
+			// aapt resource value: 0x7F080351
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131231569;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupAnimationStyle = 1;
 			
-			// aapt resource value: 0x7F070348
-			public const int PopupWindow_android_popupBackground = 2131166024;
+			// aapt resource value: 0x7F080348
+			public const int PopupWindow_android_popupBackground = 2131231560;
 			
 			// aapt resource value: 0x2
 			public const int PopupWindow_overlapAnchor = 2;
@@ -8310,8 +10485,8 @@ namespace GuideUAPP.Droid
 					2130772200,
 					2130772201};
 			
-			// aapt resource value: 0x7F070353
-			public const int RecycleListView_paddingBottomNoButtons = 2131166035;
+			// aapt resource value: 0x7F080353
+			public const int RecycleListView_paddingBottomNoButtons = 2131231571;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -8327,8 +10502,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int RecyclerView_android_descendantFocusability = 1;
 			
-			// aapt resource value: 0x7F070357
-			public const int RecyclerView_android_orientation = 2131166039;
+			// aapt resource value: 0x7F080357
+			public const int RecyclerView_android_orientation = 2131231575;
 			
 			// aapt resource value: 0x2
 			public const int RecyclerView_layoutManager = 2;
@@ -8345,14 +10520,14 @@ namespace GuideUAPP.Droid
 			public static int[] ScrimInsetsFrameLayout = new int[] {
 					2130772206};
 			
-			// aapt resource value: 0x7F070363
-			public const int ScrimInsetsFrameLayout_insetForeground = 2131166051;
+			// aapt resource value: 0x7F080363
+			public const int ScrimInsetsFrameLayout_insetForeground = 2131231587;
 			
 			public static int[] ScrollingViewBehavior_Layout = new int[] {
 					2130772207};
 			
-			// aapt resource value: 0x7F070365
-			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131166053;
+			// aapt resource value: 0x7F080365
+			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 2131231589;
 			
 			public static int[] SearchView = new int[] {
 					16842970,
@@ -8373,8 +10548,8 @@ namespace GuideUAPP.Droid
 					2130772219,
 					2130772220};
 			
-			// aapt resource value: 0x7F070367
-			public const int SearchView_android_focusable = 2131166055;
+			// aapt resource value: 0x7F080367
+			public const int SearchView_android_focusable = 2131231591;
 			
 			// aapt resource value: 0x3
 			public const int SearchView_android_imeOptions = 3;
@@ -8436,8 +10611,8 @@ namespace GuideUAPP.Droid
 			public static int[] SectionFeature = new int[] {
 					1};
 			
-			// aapt resource value: 0x7F070619
-			public const int SectionFeature_featureType = 2131166745;
+			// aapt resource value: 0x7F080619
+			public const int SectionFeature_featureType = 2131232281;
 			
 			// aapt resource value: 0x4
 			public const int Section_indexPrefixes = 4;
@@ -8451,8 +10626,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int Section_sectionFormat = 1;
 			
-			// aapt resource value: 0x7F070615
-			public const int Section_sectionId = 2131166741;
+			// aapt resource value: 0x7F080615
+			public const int Section_sectionId = 2131232277;
 			
 			// aapt resource value: 0x3
 			public const int Section_sectionWeight = 3;
@@ -8465,22 +10640,22 @@ namespace GuideUAPP.Droid
 					0,
 					0};
 			
-			// aapt resource value: 0x7F070521
-			public const int SignInButton_buttonSize = 2131166497;
+			// aapt resource value: 0x7F080521
+			public const int SignInButton_buttonSize = 2131232033;
 			
-			// aapt resource value: 0x7F070522
-			public const int SignInButton_colorScheme = 2131166498;
+			// aapt resource value: 0x7F080522
+			public const int SignInButton_colorScheme = 2131232034;
 			
-			// aapt resource value: 0x7F070523
-			public const int SignInButton_scopeUris = 2131166499;
+			// aapt resource value: 0x7F080523
+			public const int SignInButton_scopeUris = 2131232035;
 			
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130771996,
 					2130772221};
 			
-			// aapt resource value: 0x7F070385
-			public const int SnackbarLayout_android_maxWidth = 2131166085;
+			// aapt resource value: 0x7F080385
+			public const int SnackbarLayout_android_maxWidth = 2131231621;
 			
 			// aapt resource value: 0x1
 			public const int SnackbarLayout_elevation = 1;
@@ -8498,8 +10673,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x3
 			public const int Spinner_android_dropDownWidth = 3;
 			
-			// aapt resource value: 0x7F070390
-			public const int Spinner_android_entries = 2131166096;
+			// aapt resource value: 0x7F080390
+			public const int Spinner_android_entries = 2131231632;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_popupBackground = 1;
@@ -8529,8 +10704,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOff = 1;
 			
-			// aapt resource value: 0x7F070396
-			public const int SwitchCompat_android_textOn = 2131166102;
+			// aapt resource value: 0x7F080396
+			public const int SwitchCompat_android_textOn = 2131231638;
 			
 			// aapt resource value: 0x2
 			public const int SwitchCompat_android_thumb = 2;
@@ -8573,8 +10748,8 @@ namespace GuideUAPP.Droid
 					16842994,
 					16843087};
 			
-			// aapt resource value: 0x7F070410
-			public const int TabItem_android_icon = 2131166224;
+			// aapt resource value: 0x7F080410
+			public const int TabItem_android_icon = 2131231760;
 			
 			// aapt resource value: 0x1
 			public const int TabItem_android_layout = 1;
@@ -8609,8 +10784,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x5
 			public const int TabLayout_tabGravity = 5;
 			
-			// aapt resource value: 0x7F070417
-			public const int TabLayout_tabIndicatorColor = 2131166231;
+			// aapt resource value: 0x7F080417
+			public const int TabLayout_tabIndicatorColor = 2131231767;
 			
 			// aapt resource value: 0x1
 			public const int TabLayout_tabIndicatorHeight = 1;
@@ -8678,8 +10853,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x4
 			public const int TextAppearance_android_textColorHint = 4;
 			
-			// aapt resource value: 0x7F070437
-			public const int TextAppearance_android_textSize = 2131166263;
+			// aapt resource value: 0x7F080437
+			public const int TextAppearance_android_textSize = 2131231799;
 			
 			// aapt resource value: 0x2
 			public const int TextAppearance_android_textStyle = 2;
@@ -8711,8 +10886,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int TextInputLayout_android_hint = 1;
 			
-			// aapt resource value: 0x7F070443
-			public const int TextInputLayout_android_textColorHint = 2131166275;
+			// aapt resource value: 0x7F080443
+			public const int TextInputLayout_android_textColorHint = 2131231811;
 			
 			// aapt resource value: 0x6
 			public const int TextInputLayout_counterEnabled = 6;
@@ -8787,8 +10962,8 @@ namespace GuideUAPP.Droid
 					2130772278,
 					2130772279};
 			
-			// aapt resource value: 0x7F070459
-			public const int Toolbar_android_gravity = 2131166297;
+			// aapt resource value: 0x7F080459
+			public const int Toolbar_android_gravity = 2131231833;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -8886,8 +11061,8 @@ namespace GuideUAPP.Droid
 					2130772283,
 					2130772284};
 			
-			// aapt resource value: 0x7F070495
-			public const int ViewBackgroundHelper_android_background = 2131166357;
+			// aapt resource value: 0x7F080495
+			public const int ViewBackgroundHelper_android_background = 2131231893;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -8900,8 +11075,8 @@ namespace GuideUAPP.Droid
 					16842994,
 					16842995};
 			
-			// aapt resource value: 0x7F070499
-			public const int ViewStubCompat_android_id = 2131166361;
+			// aapt resource value: 0x7F080499
+			public const int ViewStubCompat_android_id = 2131231897;
 			
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_inflatedId = 2;
@@ -8912,8 +11087,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x1
 			public const int View_android_focusable = 1;
 			
-			// aapt resource value: 0x7F070490
-			public const int View_android_theme = 2131166352;
+			// aapt resource value: 0x7F080490
+			public const int View_android_theme = 2131231888;
 			
 			// aapt resource value: 0x3
 			public const int View_paddingEnd = 3;
@@ -8930,8 +11105,8 @@ namespace GuideUAPP.Droid
 					1,
 					1};
 			
-			// aapt resource value: 0x7F070621
-			public const int WalletFragmentOptions_appTheme = 2131166753;
+			// aapt resource value: 0x7F080621
+			public const int WalletFragmentOptions_appTheme = 2131232289;
 			
 			// aapt resource value: 0x1
 			public const int WalletFragmentOptions_environment = 1;
@@ -8958,8 +11133,8 @@ namespace GuideUAPP.Droid
 			// aapt resource value: 0x3
 			public const int WalletFragmentStyle_buyButtonAppearance = 3;
 			
-			// aapt resource value: 0x7F070627
-			public const int WalletFragmentStyle_buyButtonHeight = 2131166759;
+			// aapt resource value: 0x7F080627
+			public const int WalletFragmentStyle_buyButtonHeight = 2131232295;
 			
 			// aapt resource value: 0x2
 			public const int WalletFragmentStyle_buyButtonText = 2;

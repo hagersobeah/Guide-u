@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             NavigationPage.HasNavigationBar="False"
+             NavigationPage.HasBackButton="True"
              x:Class="GuideUAPP.PaymentMethodPage">
 
     <Grid>
@@ -22,7 +22,7 @@
             <RowDefinition Height="15*"/>
             <RowDefinition Height="15*"/>
         </Grid.RowDefinitions>
-       
+
         <Label Grid.Column="1" Grid.ColumnSpan="3" FontSize="Medium" Text="Payment Method" HorizontalOptions="Center" VerticalOptions="Center"></Label>
         <Entry Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" x:Name="CardNumber" Placeholder="Card number"></Entry>
         <Entry Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" x:Name="CardHolderName" Placeholder="Card holder name"></Entry>
@@ -30,7 +30,7 @@
         <StackLayout Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" Orientation="Horizontal">
             <Entry Grid.Column="1" Placeholder="YYYY"></Entry>
             <Entry Grid.Column="2" Placeholder="MM"></Entry>
-            
+
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="3" >
@@ -38,15 +38,15 @@
             <Entry Grid.Column="2" Grid.ColumnSpan="2" Placeholder="XXX"></Entry>
         </StackLayout>
         <StackLayout Orientation="Horizontal" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3">
-        
-              <Label Grid.Column="1" Grid.ColumnSpan="2" Text="&#xf1f0;" BackgroundColor="Transparent">
+
+            <Label Grid.Column="1" Grid.ColumnSpan="2" Text="&#xf1f0;" BackgroundColor="Transparent">
                 <Label.FontFamily>
                     <OnPlatform x:TypeArguments="x:String"
                             Android="Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free Solid" 
                             iOS="Font Awesome 5 Free" 
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                 </Label.FontFamily>
-              </Label>
+            </Label>
             <Label Grid.Column="3" Text="&#xf1f1;" BackgroundColor="Transparent">
                 <Label.FontFamily>
                     <OnPlatform x:TypeArguments="x:String"
@@ -54,9 +54,9 @@
                             iOS="Font Awesome 5 Free" 
                             WinPhone="Assets/Font Awesome 5 Free-Solid-900.otf#Font Awesome 5 Free" />
                 </Label.FontFamily>
-              </Label>
+            </Label>
 
-                  
+
         </StackLayout>
         <Button Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="3" VerticalOptions="Center" Text="Save" BackgroundColor="Transparent" HorizontalOptions="Center"></Button>
 
